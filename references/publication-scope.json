@@ -1,0 +1,75 @@
+{
+  "edition": "public-portable",
+  "checked": "2026-10-06",
+  "sources": 84,
+  "content_entries": 3927,
+  "entry_kinds": {
+    "capability": 84,
+    "upstream_dataflow": 1886,
+    "provider_asset": 15,
+    "provider_dataset": 1809,
+    "upstream_schema": 3,
+    "provider_database": 50,
+    "mcp_tool": 54,
+    "declared_indicator": 26
+  },
+  "included_metadata_catalogs": [
+    {
+      "id": "ecb-flows",
+      "records": 215
+    },
+    {
+      "id": "ecb-codes",
+      "records": 131339
+    },
+    {
+      "id": "bis-flows",
+      "records": 29
+    },
+    {
+      "id": "oecd-flows",
+      "records": 1548
+    },
+    {
+      "id": "bbk-flows",
+      "records": 94
+    },
+    {
+      "id": "cftc-datasets",
+      "records": 15
+    },
+    {
+      "id": "census-datasets",
+      "records": 1809
+    },
+    {
+      "id": "sec-companies",
+      "records": 10434
+    },
+    {
+      "id": "boj-databases",
+      "records": 50
+    },
+    {
+      "id": "boj-series",
+      "records": 66885
+    },
+    {
+      "id": "datayes-indicators",
+      "records": 26
+    }
+  ],
+  "excluded_categories": [
+    "personal identifiers",
+    "account/order/position/cashflow records",
+    "private entitlement observations",
+    "local paths and host configuration",
+    "internal project ownership and scripts",
+    "local database schemas and CSV headers",
+    "private archive coverage and filenames",
+    "memory/session/migration records",
+    "backups and logs",
+    "non-public subscription dictionaries"
+  ],
+  "original_installation_modified": false
+}

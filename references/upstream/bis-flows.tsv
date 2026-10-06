@@ -1,0 +1,30 @@
+flow_id	agency	version	name	search_aliases	structure_ref	query_flow_ref
+BIS_REL_CAL	BIS	1.0	BIS_RELEASE_CALENDAR		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_RELEASE_CALENDAR"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,BIS_REL_CAL,1.0
+WS_CBPOL	BIS	1.0	Central bank policy rates	政策利率	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_CBPOL"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CBPOL,1.0
+WS_CBS_PUB	BIS	1.0	Consolidated banking	银行	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_CBS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CBS_PUB,1.0
+WS_CBTA	BIS	1.0	Central bank total assets	资产	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CBTA"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CBTA,1.0
+WS_CPMI_CASHLESS	BIS	1.0	CPMI cashless payments	支付	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_CASHLESS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_CASHLESS,1.0
+WS_CPMI_CT1	BIS	1.0	CPMI comparative tables type 1		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_CT1"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_CT1,1.0
+WS_CPMI_CT2	BIS	1.0	CPMI comparative tables type 2		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_CT2"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_CT2,1.0
+WS_CPMI_DEVICES	BIS	1.0	CPMI payment devices	支付	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_DEVICES"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_DEVICES,1.0
+WS_CPMI_INSTITUT	BIS	1.0	CPMI institutions		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_INSTITUTIONS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_INSTITUT,1.0
+WS_CPMI_MACRO	BIS	1.0	CPMI macro		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_MACRO"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_MACRO,1.0
+WS_CPMI_PARTICIP	BIS	1.0	CPMI participants		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_PARTICIPANTS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_PARTICIP,1.0
+WS_CPMI_SYSTEMS	BIS	1.0	CPMI systems		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""CPMI_SYSTEMS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPMI_SYSTEMS,1.0
+WS_CPP	BIS	1.0	Commercial property prices	房价 房地产 价格	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_PROP_PRICES"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CPP,1.0
+WS_CREDIT_GAP	BIS	1.0	Credit-to-GDP gaps	信贷	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_CREDIT_GAP"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_CREDIT_GAP,1.0
+WS_DEBT_SEC2_PUB	BIS	1.0	International debt securities (BIS-compiled)		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_DEBT_SEC2"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_DEBT_SEC2_PUB,1.0
+WS_DER_OTC_TOV	BIS	1.0	OTC derivatives turnover	衍生品	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_DER"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_DER_OTC_TOV,1.0
+WS_DPP	BIS	1.0	Detailed residential property prices	房价 房地产 价格	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_PROP_PRICES"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_DPP,1.0
+WS_DSR	BIS	1.0	Debt service ratios	偿债负担	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_DSR"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_DSR,1.0
+WS_EER	BIS	1.0	Effective exchange rates	汇率	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_EER"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_EER,1.0
+WS_GLI	BIS	1.0	Global liquidity indicators	流动性	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_GLI"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_GLI,1.0
+WS_LBS_D_PUB	BIS	1.0	Locational banking	银行	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_LBS_DISS"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_LBS_D_PUB,1.0
+WS_LONG_CPI	BIS	1.0	Consumer prices statistics	消费价格 通胀 价格	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_LONG_CPI"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_LONG_CPI,1.0
+WS_NA_SEC_C3	BIS	1.0	BIS debt securities statistics		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""NA_SEC"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_NA_SEC_C3,1.0
+WS_NA_SEC_DSS	BIS	1.0	Debt securities statistics		"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""NA_SEC"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_NA_SEC_DSS,1.0
+WS_OTC_DERIV2	BIS	1.0	OTC derivatives outstanding	衍生品	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_DER"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_OTC_DERIV2,1.0
+WS_SPP	BIS	1.0	Selected residential property prices	房价 房地产 价格	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_SELECTED_PP"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_SPP,1.0
+WS_TC	BIS	2.0	Total credit	信贷	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_TOTAL_CREDIT"", ""version"": ""2.0"", ""class"": ""DataStructure""}"	BIS,WS_TC,2.0
+WS_XRU	BIS	1.0	US dollar exchange rates	汇率	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_XR"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_XRU,1.0
+WS_XTD_DERIV	BIS	1.0	Exchange-traded derivatives	衍生品 贸易	"{""package"": ""datastructure"", ""agencyID"": ""BIS"", ""id"": ""BIS_XTD_DERIV"", ""version"": ""1.0"", ""class"": ""DataStructure""}"	BIS,WS_XTD_DERIV,1.0

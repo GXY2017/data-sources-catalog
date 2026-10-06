@@ -1,0 +1,173 @@
+{
+  "edition": "public-portable",
+  "checked": "2026-10-06",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "decbd376f333b3db847b108c1da86ffc91a8126d341e88ad08c0269d0f502592",
+      "bytes": 129
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "3c78d4912e0553fbe9743a1b1ed0959ab71b32a76e62091bff95d90537f6c0bb",
+      "bytes": 80
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "430b0d01df02472e67559bce5492a2f409541be7d9064b98a7598b393223a716",
+      "bytes": 1245
+    },
+    {
+      "file": "README.md",
+      "sha256": "4e6e6a74dbfbfd867bec71d062ac97d9b3e89237fa44480dba9599167da439b2",
+      "bytes": 4702
+    },
+    {
+      "file": "SKILL.md",
+      "sha256": "022c542f341a2cda82c8f8242f8469d5bb41e2c4fc9cc8590d339dd98e6e5358",
+      "bytes": 2796
+    },
+    {
+      "file": "registry.json",
+      "sha256": "a718a2b0f99cd800f45681ce324662d3428df29e05cf7d0ee6d92a8cdf0a5b61",
+      "bytes": 57990
+    },
+    {
+      "file": "data-index.json",
+      "sha256": "38793b72b2e64c8d3f8d9f9388e8b98a32962bf863660b5ad63a33f234d24ba2",
+      "bytes": 5961592
+    },
+    {
+      "file": "scripts/lookup.py",
+      "sha256": "52b056e2f7203739802554f4ce815221ac2eb77a89cab316c46709e215f0bb5a",
+      "bytes": 6925
+    },
+    {
+      "file": "references/catalog.md",
+      "sha256": "8a46b88fbb1feac364f14c7c090334b247ba33b802325c3eede21ec7c01fab35",
+      "bytes": 21694
+    },
+    {
+      "file": "references/retrieval.md",
+      "sha256": "d2ef2b99735d6b93ecdb23ba8218ba79e81770bc8483ff369b76c82c31ccc930",
+      "bytes": 4889
+    },
+    {
+      "file": "references/publication-scope.json",
+      "sha256": "f57238d7382dcf2030663e03720380a93a62f60372e2ffd5ab189b6decfc8b61",
+      "bytes": 1615
+    },
+    {
+      "file": "references/publication-review.json",
+      "sha256": "d538ab86639746c7d14d9a3cb83990050f6f42cc909a402422ed0f7d5bbde74c",
+      "bytes": 6478
+    },
+    {
+      "file": "references/upstream/ecb-flows.tsv",
+      "sha256": "027a5a94ad267aacd689ce8495ba5cfa078c81945d39280052ad4a54c86151c4",
+      "bytes": 20015
+    },
+    {
+      "file": "references/upstream/ecb-codes.tsv",
+      "sha256": "a455f47812ff8e4074894174afa3de97106695a84ba2f6e0516f9bff13803810",
+      "bytes": 12868985
+    },
+    {
+      "file": "references/upstream/bis-flows.tsv",
+      "sha256": "58355baf618fab6713a74d22471afaabf878cb0861817505c5b93367d7417147",
+      "bytes": 6125
+    },
+    {
+      "file": "references/upstream/oecd-flows.tsv",
+      "sha256": "8a9a633eeaa8b2fd677e5019df5bbc8d9a9c8f2dc0a1f2498b95eb2ef48b34c6",
+      "bytes": 443258
+    },
+    {
+      "file": "references/upstream/bbk-flows.tsv",
+      "sha256": "c2d6ba0f30542deb9aab7bc66a4365d756204099222ddf98e54d28880b7c3a81",
+      "bytes": 19734
+    },
+    {
+      "file": "references/upstream/cftc-datasets.tsv",
+      "sha256": "65e7336f28dda13c573172dd72eb72e2c31f89b8e051a2475e9fd6b14ef7597a",
+      "bytes": 5586
+    },
+    {
+      "file": "references/upstream/census-datasets.tsv",
+      "sha256": "a4f51aadd5ddc8bf75c63637614fa5f670d1ccfb96391232a8d0ed642f74a284",
+      "bytes": 576797
+    },
+    {
+      "file": "references/upstream/sec-companies.tsv",
+      "sha256": "6eb5b12f3806577b150ddb1e716cefd5c7b1be8aea869a33e85a113306b89bbb",
+      "bytes": 426429
+    },
+    {
+      "file": "references/upstream/boj-databases.tsv",
+      "sha256": "ec844af17f4522680ea7e5c33ed9eb999a04e8d63fc09fba99b7b43b41a52994",
+      "bytes": 3779
+    },
+    {
+      "file": "references/upstream/boj-series.tsv",
+      "sha256": "ed0f1584974ff4b541aa6aee9043f50647fbe895141802faf58d8d31895051bb",
+      "bytes": 15697852
+    },
+    {
+      "file": "references/upstream/datayes-indicators.tsv",
+      "sha256": "8680b63eefabc0edb86de1b645071783dd56869317c6e986cda16aba435eed59",
+      "bytes": 1170
+    },
+    {
+      "file": "references/upstream/ecb-dataflows.json",
+      "sha256": "55578676f3c1b33bf84fecb2bddd83faaef4497381d401482ffe857eb39265e8",
+      "bytes": 130537
+    },
+    {
+      "file": "references/upstream/ecb-structures.json",
+      "sha256": "7a147798286373ce749217bb49f840d6f623320e8a20a0d3be9e876241ee8347",
+      "bytes": 18193031
+    },
+    {
+      "file": "references/upstream/bis-catalog.json",
+      "sha256": "63ce1d3c895df0a7877d111a6ea637ceac1cca9d94eef51ec3c29d238ddf4097",
+      "bytes": 12432
+    },
+    {
+      "file": "references/upstream/oecd-catalog.json",
+      "sha256": "08e20aeaeb1c006a66354c08d4cd27c83db262736c75e9bf161781402ef5ce88",
+      "bytes": 761720
+    },
+    {
+      "file": "references/upstream/bbk-catalog.json",
+      "sha256": "400046ff57bcb9e97fc156061bed3bc3d8218db84ac844ce94a5a88733e84f3c",
+      "bytes": 39448
+    },
+    {
+      "file": "references/upstream/cftc-catalog.json",
+      "sha256": "6755d260c08aedf89efb53f68e1ef9fc31dd1f7768d96adb5abd0fc9f3f989e4",
+      "bytes": 8659
+    },
+    {
+      "file": "references/upstream/census-catalog.json",
+      "sha256": "4e8af8c1f13b2deaeeffe05b283353b4cc89b318983afa52fc6ca35657e4072d",
+      "bytes": 1068518
+    },
+    {
+      "file": "references/upstream/sec-catalog.json",
+      "sha256": "2055fcdd6caf7f82bdef44837f7fa23ab0c8d28defcb69e11f460ea49e2ed9c8",
+      "bytes": 1167602
+    },
+    {
+      "file": "references/upstream/boj-metadata-catalog.json",
+      "sha256": "5b363fc454df486f3829a4c076e7860d8d9d8bbbddfa62037e6c5a984dd81774",
+      "bytes": 11517
+    },
+    {
+      "file": "references/upstream/cftc-table-schemas.json",
+      "sha256": "dd408a846fce00fc66a318de3793696a740ec5486cf7dc0b53cf4345d60f3e5e",
+      "bytes": 52256
+    }
+  ],
+  "history": "single fresh public snapshot; no original Git history",
+  "author_identity": "generic contributor name and GitHub no-reply email"
+}

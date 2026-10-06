@@ -1,0 +1,216 @@
+{
+  "id": "cftc",
+  "source_id": "cftc-socrata",
+  "url": "https://publicreporting.cftc.gov/data.json",
+  "checked": "2026-10-06",
+  "record_count": 15,
+  "scope": "All dataset records returned by public data.json; not all series/observations",
+  "original_response_sha256": "520a68145de25f194a61ea3c2ab6040e243806f27d55059ccc7d0203fc014970",
+  "records": [
+    {
+      "asset_id": "8jj7-5vf4",
+      "title": "Legacy - Combined",
+      "identifier": "https://publicreporting.cftc.gov/api/views/8jj7-5vf4",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "98ig-3k9y",
+      "title": "TFF - Futures Only",
+      "identifier": "https://publicreporting.cftc.gov/api/views/98ig-3k9y",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "dw8z-x6ih",
+      "title": "TFF - Combined",
+      "identifier": "https://publicreporting.cftc.gov/api/views/dw8z-x6ih",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "gr4m-cvuh",
+      "title": "Disaggregated - Combined",
+      "identifier": "https://publicreporting.cftc.gov/api/views/gr4m-cvuh",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "inwp-fmhz",
+      "title": "Public Reporting FAQ",
+      "identifier": "https://publicreporting.cftc.gov/api/views/inwp-fmhz",
+      "search_aliases": "",
+      "distributions": []
+    },
+    {
+      "asset_id": "j83k-qyrd",
+      "title": "CIT_All",
+      "identifier": "https://publicreporting.cftc.gov/api/views/j83k-qyrd",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/j83k-qyrd/export.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/j83k-qyrd/query.json?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/j83k-qyrd/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/j83k-qyrd/query.xml?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/j83k-qyrd/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ]
+    },
+    {
+      "asset_id": "p2fg-u73y",
+      "title": "User's Guide",
+      "identifier": "https://publicreporting.cftc.gov/api/views/p2fg-u73y",
+      "search_aliases": "",
+      "distributions": []
+    },
+    {
+      "asset_id": "r4w3-av2u",
+      "title": "Commitments of Traders",
+      "identifier": "https://publicreporting.cftc.gov/api/views/r4w3-av2u",
+      "search_aliases": "",
+      "distributions": []
+    },
+    {
+      "asset_id": "rj6x-va3z",
+      "title": "ProductHierarchy",
+      "identifier": "https://publicreporting.cftc.gov/api/views/rj6x-va3z",
+      "search_aliases": "",
+      "distributions": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rj6x-va3z/export.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rj6x-va3z/query.json?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/rj6x-va3z/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rj6x-va3z/query.xml?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/rj6x-va3z/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ]
+    },
+    {
+      "asset_id": "rxbv-e226",
+      "title": "Disaggregated_All",
+      "identifier": "https://publicreporting.cftc.gov/api/views/rxbv-e226",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rxbv-e226/export.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rxbv-e226/query.json?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/rxbv-e226/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/rxbv-e226/query.xml?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/rxbv-e226/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ]
+    },
+    {
+      "asset_id": "rxj2-hk38",
+      "title": "Supplemental - CIT",
+      "identifier": "https://publicreporting.cftc.gov/api/views/rxj2-hk38",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "srt6-5q2f",
+      "title": "Legacy_All",
+      "identifier": "https://publicreporting.cftc.gov/api/views/srt6-5q2f",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/srt6-5q2f/export.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/srt6-5q2f/query.json?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/srt6-5q2f/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/srt6-5q2f/query.xml?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/srt6-5q2f/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ]
+    },
+    {
+      "asset_id": "ubmb-6exi",
+      "title": "Disaggregated - Futures Only",
+      "identifier": "https://publicreporting.cftc.gov/api/views/ubmb-6exi",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    },
+    {
+      "asset_id": "udgc-27he",
+      "title": "TFF_All",
+      "identifier": "https://publicreporting.cftc.gov/api/views/udgc-27he",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/udgc-27he/export.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/udgc-27he/query.json?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/udgc-27he/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://publicreporting.cftc.gov/api/v3/views/udgc-27he/query.xml?accessType=DOWNLOAD",
+          "describedBy": "https://publicreporting.cftc.gov/api/views/udgc-27he/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ]
+    },
+    {
+      "asset_id": "yjak-hhbj",
+      "title": "Legacy - Futures Only",
+      "identifier": "https://publicreporting.cftc.gov/api/views/yjak-hhbj",
+      "search_aliases": "持仓 期货 期权 COT",
+      "distributions": []
+    }
+  ]
+}

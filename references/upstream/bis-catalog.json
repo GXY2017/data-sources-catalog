@@ -1,0 +1,446 @@
+{
+  "id": "bis",
+  "source_id": "bis-sdmx",
+  "url": "https://stats.bis.org/api/v1/dataflow/BIS/all/latest?references=none",
+  "checked": "2026-10-06",
+  "record_count": 29,
+  "scope": "All returned dataflow records, including versions/subsets; not distinct indicator series",
+  "original_response_sha256": "bd2f60ae9808f3bfabc16d89c7ff1844619ad0979cf288e8b2c9791b1765cb3e",
+  "records": [
+    {
+      "flow_id": "BIS_REL_CAL",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "BIS_RELEASE_CALENDAR",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_RELEASE_CALENDAR",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,BIS_REL_CAL,1.0"
+    },
+    {
+      "flow_id": "WS_CBPOL",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Central bank policy rates",
+      "search_aliases": "政策利率",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_CBPOL",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CBPOL,1.0"
+    },
+    {
+      "flow_id": "WS_CBS_PUB",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Consolidated banking",
+      "search_aliases": "银行",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_CBS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CBS_PUB,1.0"
+    },
+    {
+      "flow_id": "WS_CBTA",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Central bank total assets",
+      "search_aliases": "资产",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CBTA",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CBTA,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_CASHLESS",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI cashless payments",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_CASHLESS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_CASHLESS,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_CT1",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI comparative tables type 1",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_CT1",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_CT1,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_CT2",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI comparative tables type 2",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_CT2",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_CT2,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_DEVICES",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI payment devices",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_DEVICES",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_DEVICES,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_INSTITUT",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI institutions",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_INSTITUTIONS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_INSTITUT,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_MACRO",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI macro",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_MACRO",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_MACRO,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_PARTICIP",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI participants",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_PARTICIPANTS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_PARTICIP,1.0"
+    },
+    {
+      "flow_id": "WS_CPMI_SYSTEMS",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "CPMI systems",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "CPMI_SYSTEMS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPMI_SYSTEMS,1.0"
+    },
+    {
+      "flow_id": "WS_CPP",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Commercial property prices",
+      "search_aliases": "房价 房地产 价格",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_PROP_PRICES",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CPP,1.0"
+    },
+    {
+      "flow_id": "WS_CREDIT_GAP",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Credit-to-GDP gaps",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_CREDIT_GAP",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_CREDIT_GAP,1.0"
+    },
+    {
+      "flow_id": "WS_DEBT_SEC2_PUB",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "International debt securities (BIS-compiled)",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_DEBT_SEC2",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_DEBT_SEC2_PUB,1.0"
+    },
+    {
+      "flow_id": "WS_DER_OTC_TOV",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "OTC derivatives turnover",
+      "search_aliases": "衍生品",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_DER",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_DER_OTC_TOV,1.0"
+    },
+    {
+      "flow_id": "WS_DPP",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Detailed residential property prices",
+      "search_aliases": "房价 房地产 价格",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_PROP_PRICES",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_DPP,1.0"
+    },
+    {
+      "flow_id": "WS_DSR",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Debt service ratios",
+      "search_aliases": "偿债负担",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_DSR",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_DSR,1.0"
+    },
+    {
+      "flow_id": "WS_EER",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Effective exchange rates",
+      "search_aliases": "汇率",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_EER",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_EER,1.0"
+    },
+    {
+      "flow_id": "WS_GLI",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Global liquidity indicators",
+      "search_aliases": "流动性",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_GLI",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_GLI,1.0"
+    },
+    {
+      "flow_id": "WS_LBS_D_PUB",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Locational banking",
+      "search_aliases": "银行",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_LBS_DISS",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_LBS_D_PUB,1.0"
+    },
+    {
+      "flow_id": "WS_LONG_CPI",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Consumer prices statistics",
+      "search_aliases": "消费价格 通胀 价格",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_LONG_CPI",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_LONG_CPI,1.0"
+    },
+    {
+      "flow_id": "WS_NA_SEC_C3",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "BIS debt securities statistics",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_NA_SEC_C3,1.0"
+    },
+    {
+      "flow_id": "WS_NA_SEC_DSS",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Debt securities statistics",
+      "search_aliases": "",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_NA_SEC_DSS,1.0"
+    },
+    {
+      "flow_id": "WS_OTC_DERIV2",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "OTC derivatives outstanding",
+      "search_aliases": "衍生品",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_DER",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_OTC_DERIV2,1.0"
+    },
+    {
+      "flow_id": "WS_SPP",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Selected residential property prices",
+      "search_aliases": "房价 房地产 价格",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_SELECTED_PP",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_SPP,1.0"
+    },
+    {
+      "flow_id": "WS_TC",
+      "agency": "BIS",
+      "version": "2.0",
+      "name": "Total credit",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_TOTAL_CREDIT",
+        "version": "2.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_TC,2.0"
+    },
+    {
+      "flow_id": "WS_XRU",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "US dollar exchange rates",
+      "search_aliases": "汇率",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_XR",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_XRU,1.0"
+    },
+    {
+      "flow_id": "WS_XTD_DERIV",
+      "agency": "BIS",
+      "version": "1.0",
+      "name": "Exchange-traded derivatives",
+      "search_aliases": "衍生品 贸易",
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "BIS",
+        "id": "BIS_XTD_DERIV",
+        "version": "1.0",
+        "class": "DataStructure"
+      },
+      "query_flow_ref": "BIS,WS_XTD_DERIV,1.0"
+    }
+  ]
+}

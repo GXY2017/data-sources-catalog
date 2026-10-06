@@ -1,0 +1,3749 @@
+{
+  "checked": "2026-10-06",
+  "url": "https://data-api.ecb.europa.eu/service/dataflow?references=none",
+  "sha256": "bc3cd59d007e4d01a13d0f5854088ee7d0cb7bd1840fcdc4f4837154ade6d59f",
+  "scope": "All dataflows returned by public service/dataflow endpoint; not all individual series or observations",
+  "flows": [
+    {
+      "id": "AGR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "AGR",
+      "names": {
+        "en": "AGR"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BCS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "AME",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "AMECO",
+      "names": {
+        "en": "AMECO"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_AME1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BKN",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Banknotes statistics",
+      "names": {
+        "en": "Banknotes statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BKN1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BLS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Bank Lending Survey Statistics",
+      "names": {
+        "en": "Bank Lending Survey Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BLS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BNT",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Shipments of Euro Banknotes Statistics (ESCB)",
+      "names": {
+        "en": "Shipments of Euro Banknotes Statistics (ESCB)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BOP_BNT",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BOP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Euro Area Balance of Payments and International Investment Position Statistics",
+      "names": {
+        "en": "Euro Area Balance of Payments and International Investment Position Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BOP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BSI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Balance Sheet Items",
+      "names": {
+        "en": "Balance Sheet Items"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BSP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Balance Sheet Items Statistics (tables 2 to 5 of the Blue Book)",
+      "names": {
+        "en": "Balance Sheet Items Statistics (tables 2 to 5 of the Blue Book)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CAR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "CAR",
+      "names": {
+        "en": "CAR"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CAR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CBD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Statistics on Consolidated Banking Data",
+      "names": {
+        "en": "Statistics on Consolidated Banking Data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CBD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CBD2",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Consolidated Banking data",
+      "names": {
+        "en": "Consolidated Banking data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CBD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CCP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Central Counterparty Clearing Statistics",
+      "names": {
+        "en": "Central Counterparty Clearing Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CCP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CES",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Consumer Expectations Survey",
+      "names": {
+        "en": "Consumer Expectations Survey"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CISS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Composite Indicator of Systemic Stress",
+      "names": {
+        "en": "Composite Indicator of Systemic Stress"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CLIFS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Country-Level Index of Financial Stress (CLIFS)",
+      "names": {
+        "en": "Country-Level Index of Financial Stress (CLIFS)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CMT",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Macro-Finance Financial Condition Index",
+      "names": {
+        "en": "Macro-Finance Financial Condition Index"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CPP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Commercial Property Price Statistics",
+      "names": {
+        "en": "Commercial Property Price Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CPP3",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CSEC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "CSEC",
+      "names": {
+        "en": "CSEC"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "DCM",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Dealogic DCM analytics data",
+      "names": {
+        "en": "Dealogic DCM analytics data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_DCM1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "DD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Derived Data",
+      "names": {
+        "en": "Derived Data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_DD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "DWA",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "DWA",
+      "names": {
+        "en": "DWA"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_DWA1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ECS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "ECS",
+      "names": {
+        "en": "ECS"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SUR2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EFS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "ECB Financial Statements",
+      "names": {
+        "en": "ECB Financial Statements"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EFS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EMMS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Extended Money Market Statistics",
+      "names": {
+        "en": "Extended Money Market Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EMMS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EON",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "EONIA: Euro Interbank Offered Rate",
+      "names": {
+        "en": "EONIA: Euro Interbank Offered Rate"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EON1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ESA",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "ESA95 National Accounts",
+      "names": {
+        "en": "ESA95 National Accounts"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ESA1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ESB",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "European Union Balance of Payments (Source Eurostat)",
+      "names": {
+        "en": "European Union Balance of Payments (Source Eurostat)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "EUROSTAT_BOP_01",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EST",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Euro Short-Term Rate",
+      "names": {
+        "en": "Euro Short-Term Rate"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EST1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EWT",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "ECB wage tracker",
+      "names": {
+        "en": "ECB wage tracker"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EWT1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EXR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Exchange Rates",
+      "names": {
+        "en": "Exchange Rates"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "FM",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Financial market data",
+      "names": {
+        "en": "Financial market data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "FVC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Financial Vehicle Corporation",
+      "names": {
+        "en": "Financial Vehicle Corporation"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FVC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "FXI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Foreign Exchange Statistics",
+      "names": {
+        "en": "Foreign Exchange Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FXS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "GST",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Government Statistics",
+      "names": {
+        "en": "Government Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_GST1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "HICP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Indices of Consumer Prices",
+      "names": {
+        "en": "Indices of Consumer Prices"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP3",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICB",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Insurance Corporations Assets and Liabilities",
+      "names": {
+        "en": "Insurance Corporations Assets and Liabilities"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICO",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Insurance Corporations Operations",
+      "names": {
+        "en": "Insurance Corporations Operations"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICO1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Indices of Consumer prices",
+      "names": {
+        "en": "Indices of Consumer prices"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IFI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Indicators of Financial Integration",
+      "names": {
+        "en": "Indicators of Financial Integration"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IFI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ILM",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Internal Liquidity Management",
+      "names": {
+        "en": "Internal Liquidity Management"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ILM1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "INW",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Indicator of negotiated wage rates",
+      "names": {
+        "en": "Indicator of negotiated wage rates"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BCS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IRS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Interest rate statistics",
+      "names": {
+        "en": "Interest rate statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IRS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IVF",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Investment Funds Balance Sheet Statistics",
+      "names": {
+        "en": "Investment Funds Balance Sheet Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IVF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "KRI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "EBA Key Risk Indicators",
+      "names": {
+        "en": "EBA Key Risk Indicators"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CBD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "LIG",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Large Insurance Groups Statistics",
+      "names": {
+        "en": "Large Insurance Groups Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_LIG1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MFI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "List of MFIs",
+      "names": {
+        "en": "List of MFIs"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MFI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MIR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "MFI Interest Rate Statistics",
+      "names": {
+        "en": "MFI Interest Rate Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MIR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MMS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Money Market Survey",
+      "names": {
+        "en": "Money Market Survey"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MMS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MMSR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Money Market Statistical Reporting",
+      "names": {
+        "en": "Money Market Statistical Reporting"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MMSR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MPD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Macroeconomic Projection Database",
+      "names": {
+        "en": "Macroeconomic Projection Database"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MPD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "NEC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "NEC",
+      "names": {
+        "en": "NEC"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BCS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "OFI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Other Financial Intermediaries",
+      "names": {
+        "en": "Other Financial Intermediaries"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_OFI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "OMO",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Open market operations",
+      "names": {
+        "en": "Open market operations"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_OMO1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PAY",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PAY",
+      "names": {
+        "en": "PAY"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PCN",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PCN",
+      "names": {
+        "en": "PCN"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY11",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PCP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PCP",
+      "names": {
+        "en": "PCP"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY5",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PCT",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PCT",
+      "names": {
+        "en": "PCT"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PDD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PDD",
+      "names": {
+        "en": "PDD"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY3",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PEM",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PEM",
+      "names": {
+        "en": "PEM"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY4",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PFB",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Pension Fund Assets and Liabilities",
+      "names": {
+        "en": "Pension Fund Assets and Liabilities"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PFBM",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Pension funds number of members",
+      "names": {
+        "en": "Pension funds number of members"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PFM1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PFBR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Pension funds Regulation",
+      "names": {
+        "en": "Pension funds Regulation"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PIS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PIS",
+      "names": {
+        "en": "PIS"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY6",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PLB",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Losses due to fraud by liability bearer",
+      "names": {
+        "en": "Losses due to fraud by liability bearer"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY7",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PMC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PMC",
+      "names": {
+        "en": "PMC"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY10",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PPC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PPC",
+      "names": {
+        "en": "PPC"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY9",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PSN",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PSN",
+      "names": {
+        "en": "PSN"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY13",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PSS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Payments and Settlement Systems Statistics",
+      "names": {
+        "en": "Payments and Settlement Systems Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PST",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PST",
+      "names": {
+        "en": "PST"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY14",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PTN",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PTN",
+      "names": {
+        "en": "PTN"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY12",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PTT",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "PTT",
+      "names": {
+        "en": "PTT"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PAY8",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RA",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "International Reserves of the Eurosystem",
+      "names": {
+        "en": "International Reserves of the Eurosystem"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BOP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RAI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Risk Assessment Indicators",
+      "names": {
+        "en": "Risk Assessment Indicators"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RAI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RDE",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Risk Dashboard data",
+      "names": {
+        "en": "Risk Dashboard data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RDF",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Risk Dashboard data",
+      "names": {
+        "en": "Risk Dashboard data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Commercial Property Prices",
+      "names": {
+        "en": "Commercial Property Prices"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESH",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Structural Housing Indicators",
+      "names": {
+        "en": "Structural Housing Indicators"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Real Estate Statistics",
+      "names": {
+        "en": "Real Estate Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESV",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Residential Property Valuation",
+      "names": {
+        "en": "Residential Property Valuation"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RIR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Retail Interest Rates",
+      "names": {
+        "en": "Retail Interest Rates"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RIR2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RPP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Residential Property Price Index Statistics",
+      "names": {
+        "en": "Residential Property Price Index Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RPP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RPV",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Residential Property Valuation",
+      "names": {
+        "en": "Residential Property Valuation"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RPP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RTD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Real Time Database (research database)",
+      "names": {
+        "en": "Real Time Database (research database)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RTD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SAFE",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Survey on the Access to Finance of SMEs",
+      "names": {
+        "en": "Survey on the Access to Finance of SMEs"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SAFE",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SEC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Securities",
+      "names": {
+        "en": "Securities"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SEC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SEE",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Securities exchange - Trading Statistics",
+      "names": {
+        "en": "Securities exchange - Trading Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SEE1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SESFOD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Survey on credit terms and conditions in euro-denominated securities financing and over-the-counter derivatives markets",
+      "names": {
+        "en": "Survey on credit terms and conditions in euro-denominated securities financing and over-the-counter derivatives markets"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SESFOD",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SHI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Structural Housing Indicators Statistics",
+      "names": {
+        "en": "Structural Housing Indicators Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SHI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SHS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Securities Holding Statistics",
+      "names": {
+        "en": "Securities Holding Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SHS6",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SHSS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "SHSS",
+      "names": {
+        "en": "SHSS"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SPF",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Survey of Professional Forecasters",
+      "names": {
+        "en": "Survey of Professional Forecasters"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FCT1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SSI",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Banking structural statistical indicators",
+      "names": {
+        "en": "Banking structural statistical indicators"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SSP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Structural Financial Indicators for Payments",
+      "names": {
+        "en": "Structural Financial Indicators for Payments"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SST",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Securities Settlement Statistics",
+      "names": {
+        "en": "Securities Settlement Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ST1",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Balance of Payments statistics, national data",
+      "names": {
+        "en": "Balance of Payments statistics, national data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BOP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ST3",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Euro Area Balance of Payments and International Investment Position Statistics, Geographical Breakdown",
+      "names": {
+        "en": "Euro Area Balance of Payments and International Investment Position Statistics, Geographical Breakdown"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BOP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "STBS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Short-Term Business Statistics",
+      "names": {
+        "en": "Short-Term Business Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BCS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "STP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "STEP data",
+      "names": {
+        "en": "STEP data"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_STP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "STS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Short-Term Statistics",
+      "names": {
+        "en": "Short-Term Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_STS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SUP",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Supervisory Banking Statistics",
+      "names": {
+        "en": "Supervisory Banking Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SUP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SUR",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Opinion Surveys",
+      "names": {
+        "en": "Opinion Surveys"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SUR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "TGB",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Target Balances",
+      "names": {
+        "en": "Target Balances"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_TGB1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "TRD",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "External Trade",
+      "names": {
+        "en": "External Trade"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_TRD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "WTS",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Trade weights",
+      "names": {
+        "en": "Trade weights"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_WTS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "YC",
+      "agency": "ECB",
+      "version": "1.0",
+      "name": "Financial market data - yield curve",
+      "names": {
+        "en": "Financial market data - yield curve"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BKN_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Banknotes statistics - Published series",
+      "names": {
+        "en": "Banknotes statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BKN1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BP6_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Balance of Payments and International Investment Position (BPM6) - Published series",
+      "names": {
+        "en": "Balance of Payments and International Investment Position (BPM6) - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP1_15",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BPS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Balance of Payments and International Investment Position - Published series",
+      "names": {
+        "en": "Balance of Payments and International Investment Position - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP",
+        "version": "2.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BSI_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Balance Sheet Items - Published series",
+      "names": {
+        "en": "Balance Sheet Items - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CPP_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Commercial Property Price Statistics - Published series",
+      "names": {
+        "en": "Commercial Property Price Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_CPP3",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "CSEC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "CSEC - Published series",
+      "names": {
+        "en": "CSEC - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EDP_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "EDP tables - Published series",
+      "names": {
+        "en": "EDP tables - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ENA_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "National accounts, Employment (Eurostat ESA2010 TP, table 0110, 0111) - Published series",
+      "names": {
+        "en": "National accounts, Employment (Eurostat ESA2010 TP, table 0110, 0111) - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EXR_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Exchange Rates - Published series",
+      "names": {
+        "en": "Exchange Rates - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "FM_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Financial market data - Published series",
+      "names": {
+        "en": "Financial market data - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "FVC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Financial Vehicle Corporation - Published series",
+      "names": {
+        "en": "Financial Vehicle Corporation - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FVC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "GFS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Government Finance Statistics - Published series",
+      "names": {
+        "en": "Government Finance Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICB_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Insurance Corporations Assets and Liabilities - Published series",
+      "names": {
+        "en": "Insurance Corporations Assets and Liabilities - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICO_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Insurance Corporations Operations - Published series",
+      "names": {
+        "en": "Insurance Corporations Operations - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICO1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICPF_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Insurance Corporations & Pension Funds Statistics - Published series",
+      "names": {
+        "en": "Insurance Corporations & Pension Funds Statistics - Published series"
+      },
+      "description": [
+        "Series of the 'Insurance Corporations & Pension Funds Statistics' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICP_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Indices of Consumer prices - Published series",
+      "names": {
+        "en": "Indices of Consumer prices - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IDCM_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "National accounts, Main aggregates in the International Data Cooperation TF context - Published series",
+      "names": {
+        "en": "National accounts, Main aggregates in the International Data Cooperation TF context - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IEAQ_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Quarterly Euro Area Accounts - Published series",
+      "names": {
+        "en": "Quarterly Euro Area Accounts - Published series"
+      },
+      "description": [
+        "Series of the 'Quarterly Euro Area Accounts' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IESS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Labour Force Survey Indicators - IESS definition - Published series",
+      "names": {
+        "en": "Labour Force Survey Indicators - IESS definition - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_LFS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ILM_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Internal Liquidity Management - Published series",
+      "names": {
+        "en": "Internal Liquidity Management - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ILM1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IRS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Interest rate statistics - Published series",
+      "names": {
+        "en": "Interest rate statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IRS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IVF_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Investment Funds Balance Sheet Statistics - Published series",
+      "names": {
+        "en": "Investment Funds Balance Sheet Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IVF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_BSI_MFI_BALANCE_SHEET",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Aggregated balance sheet of euro area monetary financial institutions, excluding the Eurosystem (millions of euro)",
+      "names": {
+        "en": "Aggregated balance sheet of euro area monetary financial institutions, excluding the Eurosystem (millions of euro)"
+      },
+      "description": [
+        "This table shows the national contributions to the aggregated balance sheet of euro area monetary financial institutions (excluding the Eurosystem). \n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as January 2015. \n\nIn Germany a change was made in December 2010 to the recording practice, leading to an increase in total assets and liabilities as well as remaining assets and liabilities (especially due to the on-balance sheet recording of derivatives held in the trading book). \n\nBefore January 2003 data for loans to other euro area residents were collected in March, June, September and December each year. Monthly data on outstanding amounts prior to January 2003 and monthly growth rates prior to January 2004 are derived from quarterly data. \n\nHousehold data include non-profit institutions serving households. Money market fund shares/units data relate to euro area residents. Amounts issued by non-euro area residents are included in external assets. Amounts held by non-euro area residents are included in external liabilities."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_BSI_MFI_DOMESTIC_CROSS_BORDER",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Domestic and cross-border positions of euro area monetary financial institutions, excluding the Eurosystem (EUR billions, outstanding amounts at end of period)",
+      "names": {
+        "en": "Domestic and cross-border positions of euro area monetary financial institutions, excluding the Eurosystem (EUR billions, outstanding amounts at end of period)"
+      },
+      "description": [
+        "The table shows the national contributions to selected items of the aggregated balance sheet of euro area monetary financial institutions (excluding the Eurosystem), broken down into within-country business; positions against other euro area Member States; positions against EU Member States not belonging to the euro area; and positions against non-EU countries.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015.\n\nThe term \"banks\" is used in this table to indicate institutions of a similar type to monetary financial institutions resident outside the EU."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_BSI_MFI_GROWTH_RATES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Growth rates for the national contributions to the aggregated balance sheet of euro area monetary financial institutions(annual growth rates at end of period)",
+      "names": {
+        "en": "Growth rates for the national contributions to the aggregated balance sheet of euro area monetary financial institutions(annual growth rates at end of period)"
+      },
+      "description": [
+        "The ECB computes annual growth rates as the differences in outstanding amounts adjusted for all non-transaction related issues, i.e. revaluations, reclassifications, and exchange rate adjustments. The ECB's computation might lead to results that differ from the growth rates published by NCBs. In the case of loans, the annual growth rates shown for country A refer to loans granted by MFIs resident in country A to all euro area residents; the growth rates do not provide information about the loans granted to the citizens of country A. Moreover, the published growth rates exclude securitised loans that have been removed from the balance sheet and thus they might differ substantially from the growth rate of lending received by the counterparty sector. Further information as well as growth rates corrected for securitised loans can be found on the websites of the NCBs. Analogously, in the case of deposits, the annual growth rates given for country B refer to deposits held by all euro area residents with MFIs resident in country B; the growth rates do not provide information about the deposits held by the citizens of country B.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015.\n\nBefore January 2003 data for loans to other euro area residents were collected in March, June, September and December each year. Monthly data on outstanding amounts prior to January 2003 and monthly growth rates prior to January 2004 are derived from quarterly data.\n\nHousehold data include non-profit institutions serving households. Money market fund shares/units data relate to euro area residents. Amounts issued by non-euro area residents are included in external assets. Amounts held by non-euro area residents are included in external liabilities."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_EXR_HCI_CPI",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Harmonised competitiveness indicators based on consumer price indices (period averages - index 1999 Q1=100)",
+      "names": {
+        "en": "Harmonised competitiveness indicators based on consumer price indices (period averages - index 1999 Q1=100)"
+      },
+      "description": [
+        "The purpose of harmonised competitiveness indicators (HCIs) is to provide consistent and comparable measures of euro area countries' price and cost competitiveness that are also consistent with the real effective exchange rates (EERs) of the euro. The HCIs are constructed using the same methodology and data sources that are used for the euro EERs. While the HCI of a specific country takes into account both intra and extra-euro area trade, however, the euro EERs are based on extra-euro area trade only. Therefore, the HCIs and euro EERs reflect different phenomena and are not directly comparable. The HCIs complement other competitiveness indicators published by some NCBs which may follow different methodologies and, in some cases, use different price and cost measures in order to account for the specific circumstances in the respective country.\n\nFor the euro area, the real effective exchange rate of the euro vis-à-vis 41 trading partners is displayed. For euro area countries, the table shows the harmonised competitiveness indicators calculated vis-à-vis these same 41 trading partners plus the other euro area countries. A positive/negative change indicates a decrease/increase in price competitiveness. For further information please refer to the explanatory note."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_EXR_HCI_GDP",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Harmonised competitiveness indicators based on GDP deflators (period averages - index 1999 Q1=100)",
+      "names": {
+        "en": "Harmonised competitiveness indicators based on GDP deflators (period averages - index 1999 Q1=100)"
+      },
+      "description": [
+        "The purpose of harmonised competitiveness indicators (HCIs) is to provide consistent and comparable measures of euro area countries' price and cost competitiveness that are also consistent with the real effective exchange rates (EERs) of the euro. The HCIs are constructed using the same methodology and data sources that are used for the euro EERs. While the HCI of a specific country takes into account both intra and extra-euro area trade, however, the euro EERs are based on extra-euro area trade only. Therefore, the HCIs and euro EERs reflect different phenomena and are not directly comparable. The HCIs complement other competitiveness indicators published by some NCBs which may follow different methodologies and, in some cases, use different price and cost measures in order to account for the specific circumstances in the respective country.\n\nFor the euro area, the real effective exchange rate of the euro vis-à-vis 41 trading partners is displayed. For euro area countries, the table shows the harmonised competitiveness indicators calculated vis-à-vis the same 41 trading partners plus the other euro area countries. A positive/negative change indicates a decrease/increase in price competitiveness. For further information please refer to the explanatory note."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_EXR_HCI_ULCT",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Harmonised competitiveness indicators based on unit labour costs indices for the total economy (period averages - index 1999 Q1=100)",
+      "names": {
+        "en": "Harmonised competitiveness indicators based on unit labour costs indices for the total economy (period averages - index 1999 Q1=100)"
+      },
+      "description": [
+        "The purpose of harmonised competitiveness indicators (HCIs) is to provide consistent and comparable measures of euro area countries' price and cost competitiveness that are also consistent with the real effective exchange rates (EERs) of the euro. The HCIs are constructed using the same methodology and data sources that are used for the euro EERs. While the HCI of a specific country takes into account both intra and extra-euro area trade, however, the euro EERs are based on extra-euro area trade only. Therefore, the HCIs and euro EERs reflect different phenomena and are not directly comparable. The HCIs complement other competitiveness indicators published by some NCBs which may follow different methodologies and, in some cases, use different price and cost measures in order to account for the specific circumstances in the respective country.\n\nFor the euro area, the real effective exchange rate of the euro vis-à-vis 18 trading partners is displayed. For euro area countries, the table shows the harmonised competitiveness indicators calculated vis-à-vis the same 18 trading partners plus the other euro area countries. A positive/negative change indicates a decrease/increase in cost competitiveness. For further information please refer to the explanatory note."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICPF_PENSION_FUNDS",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Aggregated balance sheet of euro area insurance corporations and pension funds(EUR millions, outstanding amounts at the end of the period)",
+      "names": {
+        "en": "Aggregated balance sheet of euro area insurance corporations and pension funds(EUR millions, outstanding amounts at the end of the period)"
+      },
+      "description": [
+        "This table shows the national contributions to the aggregated balance sheet of euro area insurance corporations and pension funds.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate.\n\nCalculations by the Deutsche Bundesbank based on source data of the Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) and of pension funds.\n\nLuxembourg data are based mainly on accounting data published by insurance supervisory authorities. They differ from those accounting data primarily for the following reasons: i) they exclude data on branches established abroad; ii) they include data on branches in Luxembourg of insurance corporations established in accordance with the law of another Member State of the EU; and iii) they include data on entities that are not under the supervision of insurance supervisory authorities.\n\nThe not applicable is calculated as the difference between total assets (financial and non-financial) and liabilities."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_COICOP_ANR",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP - Annual percentage changes, breakdown by purpose of consumption(percentage change)",
+      "names": {
+        "en": "HICP - Annual percentage changes, breakdown by purpose of consumption(percentage change)"
+      },
+      "description": [
+        "This table shows the annual consumer price inflation rate, i.e. the percentage change in consumer prices from the same period of the previous year, as measured by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP).\n\nIn addition to this breakdown, the table entitled \"Harmonised indices of consumer prices, breakdown by type of product (mainly used by the ECB)\" gives an alternative presentation based on the same detailed HICP sub-indices.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015.\n\nECB calculations are based on Eurostat data. National contributions may not add up exactly to the euro area HICP growth rate due to rounding differences; for user support, please contact ECB's Statistics hotline(https://ecb-registration.escb.eu/statistical-information)."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_COICOP_INW",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP - Expenditure weights, breakdown by purpose of consumption(Parts per 1000. HICP total = 1000)",
+      "names": {
+        "en": "HICP - Expenditure weights, breakdown by purpose of consumption(Parts per 1000. HICP total = 1000)"
+      },
+      "description": [
+        "This table shows household expenditure weights used by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The figures are shown as a percentage of the expenditures covered by the overall HICP. The HICP expenditure weights are updated on an annual basis. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP).\n\nIn addition to this breakdown, the table entitled \"Harmonised indices of consumer prices, breakdown by type of product (mainly used by the ECB)\" gives an alternative presentation based on the same detailed HICP sub-indices.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_COICOP_INX",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP - Indices, breakdown by purpose of consumption(2015=100)",
+      "names": {
+        "en": "HICP - Indices, breakdown by purpose of consumption(2015=100)"
+      },
+      "description": [
+        "This table shows consumer price developments as measured by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The figures shown are index values. The index reference year is 2015=100. A value of 110, for example, indicates that prices have increased by 10% since 2015. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP)."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_ECONOMIC_ACTIVITIES_ANR",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP - Annual percentage changes, breakdown by type of product (mainly used by the ECB)(percentage change)",
+      "names": {
+        "en": "HICP - Annual percentage changes, breakdown by type of product (mainly used by the ECB)(percentage change)"
+      },
+      "description": [
+        "This table shows the annual consumer price inflation rate, i.e. the percentage change in consumer prices from the same period of the previous year, as measured by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP). The breakdown shown is the one mainly used by the ECB."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_ECONOMIC_ACTIVITIES_INW",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP -  Expenditure weights, breakdown by type of product (mainly used by the ECB)(Parts per 1000. HICP total = 1000)",
+      "names": {
+        "en": "HICP -  Expenditure weights, breakdown by type of product (mainly used by the ECB)(Parts per 1000. HICP total = 1000)"
+      },
+      "description": [
+        "This table shows household expenditure weights used by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The figures are shown as a percentage of the expenditures covered by the overall HICP. The HICP expenditure weights are updated on an annual basis. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP). The breakdown shown is the one mainly used by the ECB.\n\nThese aggregates are compiled by Eurostat based on the most detailed level of the classification of individual consumption by purpose (ECOICOP). For more information on this classification please refer to the Eurostat HICP website (http://ec.europa.eu/eurostat/web/hicp/overview). These categories provide an alternative presentation of HICP data which are useful for economic analysis.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_ICP_ECONOMIC_ACTIVITIES_INX",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "HICP - Indices, breakdown by type of product (mainly used by the ECB)(2015=100)",
+      "names": {
+        "en": "HICP - Indices, breakdown by type of product (mainly used by the ECB)(2015=100)"
+      },
+      "description": [
+        "This table shows consumer price developments as measured by the Harmonised Index of Consumer Prices (HICP) for the euro area and the euro area countries. The figures shown are index values. The index reference year is 2015=100. A value of 110, for example, indicates that prices have increased by 10% since 2015. The breakdown is in accordance with the classification of individual consumption by purpose adapted to the needs of the HICP (ECOICOP). The breakdown shown is the one mainly used by the ECB.\n\nThese aggregates are compiled by Eurostat based on the most detailed level of the classification of individual consumption by purpose (ECOICOP). For more information on this classification please refer to the Eurostat HICP website (http://ec.europa.eu/eurostat/web/hicp/overview). These categories provide an alternative presentation of HICP data which are useful for economic analysis.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_IVF_ASSETS_LIABILITIES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Euro area and national investment fund statistics - assets and liabilities(EUR billions; amounts outstanding at the end of the period, transactions during the period)",
+      "names": {
+        "en": "Euro area and national investment fund statistics - assets and liabilities(EUR billions; amounts outstanding at the end of the period, transactions during the period)"
+      },
+      "description": [
+        "This table shows the national contributions to the assets and liabilities of euro area investment funds other than money market funds.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IVF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_IVF_SHARES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Euro area and national investment fund statistics - by investment policy and type of fund(EUR billions; amounts outstanding at the end of the period, transactions during the period)",
+      "names": {
+        "en": "Euro area and national investment fund statistics - by investment policy and type of fund(EUR billions; amounts outstanding at the end of the period, transactions during the period)"
+      },
+      "description": [
+        "This table shows the national contributions to the shares/units issued by euro area investment funds other than money market funds.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IVF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MFI_MFI_LIST",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Number of monetary financial institutions (MFIs) in the euro area (pure number)",
+      "names": {
+        "en": "Number of monetary financial institutions (MFIs) in the euro area (pure number)"
+      },
+      "description": [
+        "This table shows the number of MFIs, by country and category.\n\nRefers to position on the last working day of the month.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate, the ECB and the EIB.\n\nThe European Central Bank is part of the Eurosystem."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MFI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MFI_MFI_LIST_NEA",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Number of monetary financial institutions (MFIs) in the non-participating Member States(pure number)",
+      "names": {
+        "en": "Number of monetary financial institutions (MFIs) in the non-participating Member States(pure number)"
+      },
+      "description": [
+        "This table shows the number of MFIs, by country and category.\n\nRefers to position on the last working day of the month.\n \nThe EU total covers the countries which were members of the EU at the time to which the statistics relate.\n\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate, and the ECB."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MFI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MIR_MFI_INTEREST_RATES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Euro area and national MFI interest rates (MIR)(percentages per annum ; rates on new business as average of the period ; rates on outstanding amounts as end-of-period, unless otherwise indicated)",
+      "names": {
+        "en": "Euro area and national MFI interest rates (MIR)(percentages per annum ; rates on new business as average of the period ; rates on outstanding amounts as end-of-period, unless otherwise indicated)"
+      },
+      "description": [
+        "This table contains a selection of euro area and national MFI interest rates, chosen according to their importance at the euro area level. Some of the rates may reflect only small new business volumes or outstanding amounts in one or more of the participating countries. Besides, data subject to statistical confidentiality at the national level are also not given.\n\nData as of June 2010 may not be fully comparable with those prior to that date owing to methodological changes arising from the implementation of Regulations ECB/2008/32 and ECB/2009/7 (amending Regulation ECB/2001/18) together with other changes to the statistical reporting framework and practices in several euro area countries.\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate.Slovenian data are included in euro area aggregates as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014 and Lithuanian data are included as of January 2015.\n\nFor overnight deposits, deposits redeemable at notice, credit card debt and revolving loans and overdrafts, new business and outstanding amounts coincide. End-period.\n\nMFI interest rates on new deposits with agreed maturity are broken down by the original maturity of the deposit, while interest rates on deposits redeemable at notice are divided into separate categories according to the period of notice. MFI interest rates on new loans are, in turn, broken down by initial period of interest rate fixation. Interest rates on outstanding amounts are provided with a breakdown according to the original maturity of the deposit or loan."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MIR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MNA_A_GDP_GROWTH_QOQ",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Quarter-on-quarter volume growth of GDP and expenditure components(quarter-on-quarter percentage changes)",
+      "names": {
+        "en": "Quarter-on-quarter volume growth of GDP and expenditure components(quarter-on-quarter percentage changes)"
+      },
+      "description": [
+        "This table shows the quarter-on-quarter volume growth of the GDP and its main expenditure components for the euro area and the euro area countries. Additionally, it shows the individual contributions of euro area countries to the euro area quarter-on-quarter GDP volume growth.\n\nSeasonally and working-day adjusted data. The euro area aggregate for the whole time series refers to the Euro 20.  Contributions to the euro area aggregate are ECB calculations based on Eurostat data. National contributions may not add up exactly to the euro area GDP growth rate due to rounding. For user support on the contributions data, please contact ECB's Statistics hotline via the following form: https://ecb-registration.escb.eu/statistical-information.  Euro area exports and imports cover goods and services and include cross-border intra-euro area trade."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MNA_B_GDP_GROWTH_YOY",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Year-on-year volume growth of GDP and expenditure components(annual percentage changes)",
+      "names": {
+        "en": "Year-on-year volume growth of GDP and expenditure components(annual percentage changes)"
+      },
+      "description": [
+        "This table shows the annual volume growth of the GDP and its main expenditure components for the euro area and the euro area countries. Additionally, it shows the individual contributions of euro area countries to the euro area annual GDP volume growth.\n\nSeasonally and working-day adjusted data. The euro area aggregate for the whole time series refers to the Euro 20. Contributions to the euro area aggregate are ECB calculations based on Eurostat data. National contributions may not add up exactly to the euro area GDP growth rate due to rounding. For user support on the contributions data, please contact ECB's Statistics hotline via the following form: https://ecb-registration.escb.eu/statistical-information.  Euro area exports and imports cover goods and services and include cross-border intra-euro area trade."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MNA_C_GDP_CONTRIBUTIONS_QOQ",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Contributions to quarter-on-quarter volume growth of GDP and expenditure components(contributions to quarter-on-quarter percentage changes of GDP in percentage points)",
+      "names": {
+        "en": "Contributions to quarter-on-quarter volume growth of GDP and expenditure components(contributions to quarter-on-quarter percentage changes of GDP in percentage points)"
+      },
+      "description": [
+        "This table shows the quarter-on-quarter volume growth of the GDP and the contributions to GDP growth of its main expenditure components for the euro area and the euro area countries. Additionally, it shows the individual GDP contributions of euro area countries to the euro area quarter-on-quarter GDP volume growth. \n\nSeasonally and working-day adjusted data. The euro area aggregate for the whole time series refers to the Euro 20. Contributions to the euro area aggregate are ECB calculations based on Eurostat data. National contributions may not add up exactly to the euro area GDP growth rate due to rounding. When computing the contribution of net trade to GDP, it may be noted that it is not yet possible to allocate the imports to the final demand categories in which they were directly or indirectly used. For user support on the contributions data, please contact ECB's Statistics hotline via the following form: https://ecb-registration.escb.eu/statistical-information. Euro area exports and imports cover goods and services and include cross-border intra-euro area trade."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_MNA_D_GDP_CONTRIBUTIONS_YOY",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Contributions to year-on-year volume growth of GDP and expenditure components(contributions to annual percentage changes of GDP in percentage points)",
+      "names": {
+        "en": "Contributions to year-on-year volume growth of GDP and expenditure components(contributions to annual percentage changes of GDP in percentage points)"
+      },
+      "description": [
+        "This table shows the annual volume growth of the GDP and the contributions to GDP growth of its main expenditure components for the euro area and the euro area countries. Additionally, it shows the individual GDP contributions of euro area countries to the euro area annual GDP volume growth.\n\nSeasonally and working-day adjusted data. The euro area aggregate for the whole time series refers to the Euro 20. Contributions to the euro area aggregate are ECB calculations based on Eurostat data. National contributions may not add up exactly to the euro area GDP growth rate due to rounding. When computing the contribution of net trade to GDP, it may be noted that it is not yet possible to allocate the imports to the final demand categories in which they were directly or indirectly used. For user support on the contributions data, please contact ECB's Statistics hotline via the following form: https://ecb-registration.escb.eu/statistical-information. Euro area exports and imports cover goods and services and include cross-border intra-euro area trade."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_N",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Total number of transactions in the euro area(millions; total for the period)",
+      "names": {
+        "en": "Total number of transactions in the euro area(millions; total for the period)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the euro area. The data refer to the total number of transactions per country for the specified reference year.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of 2001, Slovenian data as of 2007, Cypriot and Maltese data as of 2008, Slovakian data as of 2009, Estonian data as of 2011,  Latvian data as of 2014 and Lithuanian data are included as of 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_N_NEA",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Total number of transactions in the non-participating Member States(millions; total for the period)",
+      "names": {
+        "en": "Total number of transactions in the non-participating Member States(millions; total for the period)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the EU. The data refer to the total number of transactions per non-euro area country for the specified reference year.\n\nThe EU total covers the countries which were members of the EU at the time to which the statistics relate.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_P",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Relative importance of payment services in the euro area(percentage of total number of national transactions)",
+      "names": {
+        "en": "Relative importance of payment services in the euro area(percentage of total number of national transactions)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the euro area. The data refer to the percentage of transactions with each instrument in comparison with the total number of transactions in each country for the specified reference year.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of 2001, Slovenian data as of 2007, Cypriot and Maltese data as of 2008, Slovakian data as of 2009, Estonian data as of 2011,  Latvian data as of 2014 and Lithuanian data are included as of 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_P_NEA",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Relative importance of payment services in the non-participating Member States(percentage of total number of national transactions)",
+      "names": {
+        "en": "Relative importance of payment services in the non-participating Member States(percentage of total number of national transactions)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the euro area. The data refer to the percentage of transactions with each instrument in comparison with the total number of transactions per non-euro area country for the specified reference year.\n\nThe EU total covers the countries which were members of the EU at the time to which the statistics relate.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_V",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Total value of transactions in the euro area(EUR millions; total for the period)",
+      "names": {
+        "en": "Total value of transactions in the euro area(EUR millions; total for the period)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the euro area. The data refer to the total value of transactions per country for the specified reference year.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of 2001, Slovenian data as of 2007, Cypriot and Maltese data as of 2008, Slovakian data as of 2009, Estonian data as of 2011,  Latvian data as of 2014 and Lithuanian data are included as of 2015."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PSS_PAYMENTS_V_NEA",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Total value of transactions in the non-participating Member States(EUR millions; total for the period)",
+      "names": {
+        "en": "Total value of transactions in the non-participating Member States(EUR millions; total for the period)"
+      },
+      "description": [
+        "This table contains a restricted set of payment statistics covering payments by instruments of non-MFIs in the EU. The data refer to the total value of transactions per non-euro area country for the specified reference year.\n\nThe EU total covers the countries which were members of the EU at the time to which the statistics relate.\n\nThe euro area total covers the EU Member States that had adopted the euro at the time to which the statistics relate."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_PSS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PUB_BSI_CROSS_BORDER_POSITIONS",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "JDF_PUB_BSI_CROSS_BORDER_POSITIONS - Published series",
+      "names": {
+        "en": "JDF_PUB_BSI_CROSS_BORDER_POSITIONS - Published series"
+      },
+      "description": [
+        "Series of the 'Balance Sheet Items' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PUB_BSI_MFI_BALANCE_SHEET",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "JDF_PUB_BSI_MFI_BALANCE_SHEET - Published series",
+      "names": {
+        "en": "JDF_PUB_BSI_MFI_BALANCE_SHEET - Published series"
+      },
+      "description": [
+        "Series of the 'Balance Sheet Items' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PUB_IVF_INVESTMENT_FUNDS",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "JDF_PUB_IVF_INVESTMENT_FUNDS - Published series",
+      "names": {
+        "en": "JDF_PUB_IVF_INVESTMENT_FUNDS - Published series"
+      },
+      "description": [
+        "Series of the 'Investment Funds Balance Sheet Statistics' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_IVF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_PUB_MIR_BANK_INTEREST_RATES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "JDF_PUB_MIR_BANK_INTEREST_RATES - Published series",
+      "names": {
+        "en": "JDF_PUB_MIR_BANK_INTEREST_RATES - Published series"
+      },
+      "description": [
+        "Series of the 'MFI Interest Rate Statistics' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MIR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_RA6_RESERVE_ASSETS",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Official reserve assets, other foreign currency assets and related short-term liabilities(EUR millions)",
+      "names": {
+        "en": "Official reserve assets, other foreign currency assets and related short-term liabilities(EUR millions)"
+      },
+      "description": [
+        "The reserve assets of the euro area consist of the Eurosystem’s reserve assets, i.e. the ECB’s reserve assets and the reserve assets held by the NCBs of the participating Member States. Reserve assets are (i) under the effective control of the ECB or the NCBs of the participating Member States; and (ii) highly liquid, marketable and creditworthy foreign currency-denominated claims on non-residents of the euro area, in addition to monetary gold, SDRs and IMF reserve positions. This definition expressly excludes foreign-currency claims on residents of the euro area, and euro-denominated claims on non-residents of the euro area from being considered reserve assets either at the national or at the euro area level.\nThe official reserve assets (gross)  are therefore supplemented with information on other foreign currency assets, and on predetermined short-term net drains on the gross reserve assets.  Further information under  Statistical treatment of the Eurosystem's international reserves (http://www.ecb.europa.eu/pub/pdf/other/statintreservesen.pdf).\n\nEuro area data cover the EU Member States that had adopted the euro at the time to which the statistics relate. Greek data are included in euro area aggregates as of January 2001, Slovenian data as of January 2007, Cypriot and Maltese data as of January 2008, Slovakian data as of January 2009, Estonian data as of January 2011, Latvian data as of January 2014, Lithuanian data are included as of January 2015 and Croatian data are included as of January 2023.\n\nThese figures do not fully add up to the total euro area international reserves owing to differences in gold valuation by euro area countries."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP",
+        "version": "2.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_SEC_OAT_DEBT_SECURITIES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Outstanding amounts and transactions of euro-denominated debt securities by country of residence, sector of the issuer and original maturity(EUR millions; nominal values)",
+      "names": {
+        "en": "Outstanding amounts and transactions of euro-denominated debt securities by country of residence, sector of the issuer and original maturity(EUR millions; nominal values)"
+      },
+      "description": [
+        "These tables show the national contributions to the outstanding amounts, gross issues and net issues of debt securities other than shares issued by euro area residents, broken down by sector of the issuer and by maturity.\n\nThe data up to the end of November 2012 are computed in accordance with the ESA 95 methodology. Thereafter, the data are based on the ESA 2010 methodology. The data up to the end of November 2012 are computed in accordance with the ESA 95 methodology. Thereafter, the data are based on the ESA 2010 methodology.\n\nThe euro area aggregate for the whole time series refers to the euro area composition as per the latest reference period.\n\nThe data concerning the general government sector are not directly comparable with the data on government debt collected for the purposes of the \"excessive deficit procedure\" of the Stability and Growth Pact described in Council Regulation (EC) No 1467/97 of 7 July 1997."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SEC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JDF_SEC_OAT_LISTED_SHARES",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Outstanding amounts and transactions of listed shares by country of residence and sector of the issuer(EUR millions; nominal values)",
+      "names": {
+        "en": "Outstanding amounts and transactions of listed shares by country of residence and sector of the issuer(EUR millions; nominal values)"
+      },
+      "description": [
+        "This table shows the national contributions to the outstanding amounts, gross issues and net issues of listed shares issued by euro area residents, broken down by sector of the issuer.\n\nThe data up to the end of November 2012 are computed in accordance with the ESA 95 methodology. Thereafter, the data are based on the ESA 2010 methodology.\n\nThe euro area aggregate for the whole time series refers to the euro area composition as per the latest reference period."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SEC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JVC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Eurostat Job Vacancy Statistics - Published series",
+      "names": {
+        "en": "Eurostat Job Vacancy Statistics - Published series"
+      },
+      "description": [
+        "Series of the 'Eurostat Job Vacancy Statistics' dataflow that are used in ECB publications"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_JVC2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JVS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Job Vacancy Statistics - Published series",
+      "names": {
+        "en": "Job Vacancy Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "JVS",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "LCI_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Labour Cost Indices - Published series",
+      "names": {
+        "en": "Labour Cost Indices - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "LCI",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "LFSI_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Labour Force Survey - Published series",
+      "names": {
+        "en": "Labour Force Survey - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_LFS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MIR_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "MFI Interest Rate Statistics - Published series",
+      "names": {
+        "en": "MFI Interest Rate Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MIR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MNA_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "National accounts, Main aggregates (Eurostat ESA2010 TP, table 1) - Published series",
+      "names": {
+        "en": "National accounts, Main aggregates (Eurostat ESA2010 TP, table 1) - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_BSI",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Euro area monetary aggregates",
+      "names": {
+        "en": "Euro area monetary aggregates"
+      },
+      "description": [
+        "Dataflow for the euro area monetary aggregates section of the ECB Statistical Tablet Application"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_EXR",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Exchange rates",
+      "names": {
+        "en": "Exchange rates"
+      },
+      "description": [
+        "Dataflow for the exchange rates section of the ECB Statistical Tablet Application."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_GST",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Government finance",
+      "names": {
+        "en": "Government finance"
+      },
+      "description": [
+        "Dataflow for the Government finance section of the ECB Statistical Tablet Application."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_ICP",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Inflation",
+      "names": {
+        "en": "Inflation"
+      },
+      "description": [
+        "Dataflow for the inflation section of the ECB Statistical Tablet Application."
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_1",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (ICP)",
+      "names": {
+        "en": "Key euro area indicators (ICP)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_2",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (BSI)",
+      "names": {
+        "en": "Key euro area indicators (BSI)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_BSI1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_3",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (ESA)",
+      "names": {
+        "en": "Key euro area indicators (ESA)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_4",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (DD)",
+      "names": {
+        "en": "Key euro area indicators (DD)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_DD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_5",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (STS)",
+      "names": {
+        "en": "Key euro area indicators (STS)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_STS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_6",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (EXR)",
+      "names": {
+        "en": "Key euro area indicators (EXR)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_EXR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_7",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (GST)",
+      "names": {
+        "en": "Key euro area indicators (GST)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_KEY_8",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Key euro area indicators (FM)",
+      "names": {
+        "en": "Key euro area indicators (FM)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MOBILE_MIR",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Bank interest rates",
+      "names": {
+        "en": "Bank interest rates"
+      },
+      "description": [
+        "Dataflow for the bank interest rates section of the ECB Statistical Tablet Application"
+      ],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_MIR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PFBR_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Pension funds Regulation - Published series",
+      "names": {
+        "en": "Pension funds Regulation - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "PFB_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Pension Fund Assets and Liabilities - Published series",
+      "names": {
+        "en": "Pension Fund Assets and Liabilities - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_ICPF1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "QSA_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Quarterly Sector Accounts (MUFA and NFA Eurostat ESA2010 TP, table 801) - Published series",
+      "names": {
+        "en": "Quarterly Sector Accounts (MUFA and NFA Eurostat ESA2010 TP, table 801) - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RA6_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "International Reserves of the Eurosystem (BPM6) - Published series",
+      "names": {
+        "en": "International Reserves of the Eurosystem (BPM6) - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP1_15",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RAS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "International Reserves of the Eurosystem - Published series",
+      "names": {
+        "en": "International Reserves of the Eurosystem - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP",
+        "version": "2.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Commercial Property Prices - Published series",
+      "names": {
+        "en": "Commercial Property Prices - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RESR_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Real Estate Statistics - Published series",
+      "names": {
+        "en": "Real Estate Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RES1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RPP_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Residential Property Price Index Statistics - Published series",
+      "names": {
+        "en": "Residential Property Price Index Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_RPP1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SEC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Securities - Published series",
+      "names": {
+        "en": "Securities - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SEC1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "STS_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Short-Term Statistics - Published series",
+      "names": {
+        "en": "Short-Term Statistics - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_STS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "SUR_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Opinion Surveys - Published series",
+      "names": {
+        "en": "Opinion Surveys - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_SUR1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "TRD_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "External Trade - Published series",
+      "names": {
+        "en": "External Trade - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_TRD1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "YC_PUB",
+      "agency": "ECB.DISS",
+      "version": "1.0",
+      "name": "Financial market data - yield curve - Published series",
+      "names": {
+        "en": "Financial market data - yield curve - Published series"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ECB",
+        "id": "ECB_FMD2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "E09",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Government Tax and Social Contributions Receipts Statistics (Eurostat ESA2010 TP, table 9)",
+      "names": {
+        "en": "Government Tax and Social Contributions Receipts Statistics (Eurostat ESA2010 TP, table 9)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "E11",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Classification of the Functions of Government Statistics (Eurostat ESA2010 TP, table 11)",
+      "names": {
+        "en": "Classification of the Functions of Government Statistics (Eurostat ESA2010 TP, table 11)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "EDP",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "EDP tables",
+      "names": {
+        "en": "EDP tables"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ENA",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "National accounts, Employment (Eurostat ESA2010 TP, table 0110, 0111)",
+      "names": {
+        "en": "National accounts, Employment (Eurostat ESA2010 TP, table 0110, 0111)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "GFS",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Government Finance Statistics",
+      "names": {
+        "en": "Government Finance Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IDCM",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "National accounts, Main aggregates in the International Data Cooperation TF context",
+      "names": {
+        "en": "National accounts, Main aggregates in the International Data Cooperation TF context"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IDCS",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "National accounts, Sector Accounts in the International Data Cooperation TF context",
+      "names": {
+        "en": "National accounts, Sector Accounts in the International Data Cooperation TF context"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JVS",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Job Vacancy Statistics",
+      "names": {
+        "en": "Job Vacancy Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "JVS",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "LCI",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Labour Cost Indices",
+      "names": {
+        "en": "Labour Cost Indices"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "LCI",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "MNA",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "National accounts, Main aggregates (Eurostat ESA2010 TP, table 1)",
+      "names": {
+        "en": "National accounts, Main aggregates (Eurostat ESA2010 TP, table 1)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_MAIN",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "QSA",
+      "agency": "ESTAT",
+      "version": "1.0",
+      "name": "Quarterly Sector Accounts (MUFA and NFA Eurostat ESA2010 TP, table 801)",
+      "names": {
+        "en": "Quarterly Sector Accounts (MUFA and NFA Eurostat ESA2010 TP, table 801)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "ESTAT",
+        "id": "NA_SEC",
+        "version": "1.5",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "ICPF",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Insurance Corporations & Pension Funds Statistics",
+      "names": {
+        "en": "Insurance Corporations & Pension Funds Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IEAF",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Quarterly non-financial accounts, QSA by country",
+      "names": {
+        "en": "Quarterly non-financial accounts, QSA by country"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IEAQ",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Quarterly Euro Area Accounts",
+      "names": {
+        "en": "Quarterly Euro Area Accounts"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "ESTAT_ESAIEA",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "IESS",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Labour Force Survey Indicators - IESS definition",
+      "names": {
+        "en": "Labour Force Survey Indicators - IESS definition"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_LFS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "JVC",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Eurostat Job Vacancy Statistics",
+      "names": {
+        "en": "Eurostat Job Vacancy Statistics"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_JVC2",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "LFSI",
+      "agency": "EUROSTAT",
+      "version": "1.0",
+      "name": "Labour Force Survey",
+      "names": {
+        "en": "Labour Force Survey"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "EUROSTAT",
+        "id": "EUROSTAT_LFS1",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BP6",
+      "agency": "IMF",
+      "version": "1.0",
+      "name": "Balance of Payments and International Investment Position (BPM6)",
+      "names": {
+        "en": "Balance of Payments and International Investment Position (BPM6)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP1_15",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "BPS",
+      "agency": "IMF",
+      "version": "1.0",
+      "name": "Balance of Payments and International Investment Position",
+      "names": {
+        "en": "Balance of Payments and International Investment Position"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP",
+        "version": "2.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RA6",
+      "agency": "IMF",
+      "version": "1.0",
+      "name": "International Reserves of the Eurosystem (BPM6)",
+      "names": {
+        "en": "International Reserves of the Eurosystem (BPM6)"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP1_15",
+        "version": "1.0",
+        "class": "DataStructure"
+      }
+    },
+    {
+      "id": "RAS",
+      "agency": "IMF",
+      "version": "1.0",
+      "name": "International Reserves of the Eurosystem",
+      "names": {
+        "en": "International Reserves of the Eurosystem"
+      },
+      "description": [],
+      "structure_ref": {
+        "package": "datastructure",
+        "agencyID": "IMF",
+        "id": "BOP",
+        "version": "2.0",
+        "class": "DataStructure"
+      }
+    }
+  ]
+}

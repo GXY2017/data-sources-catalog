@@ -1,0 +1,51 @@
+db	name	series_catalog_status	metadata_rows
+IR01	基准贴现率与基准贷款利率	complete_returned_metadata_for_this_database	3
+IR02	各类存款挂牌平均利率	database_declared; series_not_enumerated	0
+IR03	按期限的定期存款平均利率	database_declared; series_not_enumerated	0
+IR04	贷款与贴现平均合同利率	database_declared; series_not_enumerated	0
+FM01	无担保隔夜拆借利率	complete_returned_metadata_for_this_database	6
+FM02	短期货币市场利率	database_declared; series_not_enumerated	0
+FM03	短期货币市场余额	database_declared; series_not_enumerated	0
+FM04	拆借市场余额	database_declared; series_not_enumerated	0
+FM05	公债与公司债发行偿还及余额	database_declared; series_not_enumerated	0
+FM06	按购买者的政府债券交易	database_declared; series_not_enumerated	0
+FM07	政府债券柜台销售历史参考	database_declared; series_not_enumerated	0
+FM08	外汇汇率	complete_returned_metadata_for_this_database	62
+FM09	有效汇率	complete_returned_metadata_for_this_database	5
+PS01	支付与结算系统	database_declared; series_not_enumerated	0
+PS02	交割失败统计	database_declared; series_not_enumerated	0
+MD01	基础货币	complete_returned_metadata_for_this_database	15
+MD02	货币存量	database_declared; series_not_enumerated	0
+MD03	货币概览	database_declared; series_not_enumerated	0
+MD04	旧货币M2加CD及信贷变动	database_declared; series_not_enumerated	0
+MD05	流通货币	database_declared; series_not_enumerated	0
+MD06	央行账户余额变动与市场操作	database_declared; series_not_enumerated	0
+MD07	准备金	database_declared; series_not_enumerated	0
+MD08	按部门的央行账户余额	database_declared; series_not_enumerated	0
+MD09	基础货币与央行交易	database_declared; series_not_enumerated	0
+MD10	按存款人的存款余额	database_declared; series_not_enumerated	0
+MD11	存款库存现金贷款及贴现票据	database_declared; series_not_enumerated	0
+MD12	按都道府县的存款与贷款	database_declared; series_not_enumerated	0
+MD13	金融机构主要数据	database_declared; series_not_enumerated	0
+MD14	按到期日的定期存款	database_declared; series_not_enumerated	0
+LA01	按部门的贷款与贴现票据	database_declared; series_not_enumerated	0
+LA02	日本央行贷款与贴现	database_declared; series_not_enumerated	0
+LA03	其他贷款余额	database_declared; series_not_enumerated	0
+LA04	银行承诺授信额度	database_declared; series_not_enumerated	0
+LA05	银行贷款行为调查	database_declared; series_not_enumerated	0
+BS01	日本央行资产负债表	database_declared; series_not_enumerated	0
+BS02	金融机构资产负债表	database_declared; series_not_enumerated	0
+FF	资金流量	complete_returned_metadata_for_this_database	34708
+OB01	央行与政府交易	database_declared; series_not_enumerated	0
+OB02	央行接受的抵押品	database_declared; series_not_enumerated	0
+CO	短观企业调查 Tankan	series_catalog_not_bundled	0
+PR01	企业物价指数 CGPI	complete_returned_metadata_for_this_database	32086
+PR02	服务生产者价格指数 SPPI	database_declared; series_not_enumerated	0
+PR03	制造业投入产出价格指数	database_declared; series_not_enumerated	0
+PR04	最终需求中间需求价格指数	database_declared; series_not_enumerated	0
+PF01	国库收支	database_declared; series_not_enumerated	0
+PF02	政府债务	database_declared; series_not_enumerated	0
+BP01	国际收支	database_declared; series_not_enumerated	0
+BIS	日本国际银行统计	database_declared; series_not_enumerated	0
+DER	日本衍生品市场统计	database_declared; series_not_enumerated	0
+OT	其他统计	database_declared; series_not_enumerated	0

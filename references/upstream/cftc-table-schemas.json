@@ -1,0 +1,1769 @@
+[
+  {
+    "id": "cftc-yw9f-hn96",
+    "url": "https://publicreporting.cftc.gov/api/views/yw9f-hn96.json",
+    "checked": "2026-10-06",
+    "observations": 0,
+    "http_status": 200,
+    "name": "TFF - Combined",
+    "viewType": "tabular",
+    "displayType": "table",
+    "description": "This is a report of futures and options combined positions. The Traders in Financial Futures (TFF) report includes financial contracts. The TFF report breaks down the reported open interest into five classifications: Dealer, Asset Manager, Leveraged Money, Other Reportables and Non-Reportables.",
+    "columns": [
+      {
+        "name": "ID",
+        "fieldName": "id",
+        "dataTypeName": "text",
+        "position": 1
+      },
+      {
+        "name": "Market_and_Exchange_Names",
+        "fieldName": "market_and_exchange_names",
+        "dataTypeName": "text",
+        "position": 2
+      },
+      {
+        "name": "Report_Date_as_YYYY_MM_DD",
+        "fieldName": "report_date_as_yyyy_mm_dd",
+        "dataTypeName": "calendar_date",
+        "position": 3
+      },
+      {
+        "name": "YYYY Report Week WW",
+        "fieldName": "yyyy_report_week_ww",
+        "dataTypeName": "text",
+        "position": 4
+      },
+      {
+        "name": "CONTRACT_MARKET_NAME",
+        "fieldName": "contract_market_name",
+        "dataTypeName": "text",
+        "position": 5
+      },
+      {
+        "name": "CFTC_Contract_Market_Code",
+        "fieldName": "cftc_contract_market_code",
+        "dataTypeName": "text",
+        "position": 6
+      },
+      {
+        "name": "CFTC_Market_Code",
+        "fieldName": "cftc_market_code",
+        "dataTypeName": "text",
+        "position": 7
+      },
+      {
+        "name": "CFTC_Region_Code",
+        "fieldName": "cftc_region_code",
+        "dataTypeName": "text",
+        "position": 8
+      },
+      {
+        "name": "CFTC_Commodity_Code",
+        "fieldName": "cftc_commodity_code",
+        "dataTypeName": "text",
+        "position": 9
+      },
+      {
+        "name": "Commodity Name",
+        "fieldName": "commodity_name",
+        "dataTypeName": "text",
+        "position": 10
+      },
+      {
+        "name": "Open_Interest_All",
+        "fieldName": "open_interest_all",
+        "dataTypeName": "number",
+        "position": 11
+      },
+      {
+        "name": "Dealer_Positions_Long_All",
+        "fieldName": "dealer_positions_long_all",
+        "dataTypeName": "number",
+        "position": 12
+      },
+      {
+        "name": "Dealer_Positions_Short_All",
+        "fieldName": "dealer_positions_short_all",
+        "dataTypeName": "number",
+        "position": 13
+      },
+      {
+        "name": "Dealer_Positions_Spread_All",
+        "fieldName": "dealer_positions_spread_all",
+        "dataTypeName": "number",
+        "position": 14
+      },
+      {
+        "name": "Asset_Mgr_Positions_Long_All",
+        "fieldName": "asset_mgr_positions_long",
+        "dataTypeName": "number",
+        "position": 15
+      },
+      {
+        "name": "Asset_Mgr_Positions_Short_All",
+        "fieldName": "asset_mgr_positions_short",
+        "dataTypeName": "number",
+        "position": 16
+      },
+      {
+        "name": "Asset_Mgr_Positions_Spread_All",
+        "fieldName": "asset_mgr_positions_spread",
+        "dataTypeName": "number",
+        "position": 17
+      },
+      {
+        "name": "Lev_Money_Positions_Long_All",
+        "fieldName": "lev_money_positions_long",
+        "dataTypeName": "number",
+        "position": 18
+      },
+      {
+        "name": "Lev_Money_Positions_Short_All",
+        "fieldName": "lev_money_positions_short",
+        "dataTypeName": "number",
+        "position": 19
+      },
+      {
+        "name": "Lev_Money_Positions_Spread_All",
+        "fieldName": "lev_money_positions_spread",
+        "dataTypeName": "number",
+        "position": 20
+      },
+      {
+        "name": "Other_Rept_Positions_Long_All",
+        "fieldName": "other_rept_positions_long",
+        "dataTypeName": "number",
+        "position": 21
+      },
+      {
+        "name": "Other_Rept_Positions_Short_All",
+        "fieldName": "other_rept_positions_short",
+        "dataTypeName": "number",
+        "position": 22
+      },
+      {
+        "name": "Other_Rept_Positions_Spread_All",
+        "fieldName": "other_rept_positions_spread",
+        "dataTypeName": "number",
+        "position": 23
+      },
+      {
+        "name": "Tot_Rept_Positions_Long_All",
+        "fieldName": "tot_rept_positions_long_all",
+        "dataTypeName": "number",
+        "position": 24
+      },
+      {
+        "name": "Tot_Rept_Positions_Short_All",
+        "fieldName": "tot_rept_positions_short",
+        "dataTypeName": "number",
+        "position": 25
+      },
+      {
+        "name": "NonRept_Positions_Long_All",
+        "fieldName": "nonrept_positions_long_all",
+        "dataTypeName": "number",
+        "position": 26
+      },
+      {
+        "name": "NonRept_Positions_Short_All",
+        "fieldName": "nonrept_positions_short_all",
+        "dataTypeName": "number",
+        "position": 27
+      },
+      {
+        "name": "Change_in_Open_Interest_All",
+        "fieldName": "change_in_open_interest_all",
+        "dataTypeName": "number",
+        "position": 28
+      },
+      {
+        "name": "Change_in_Dealer_Long_All",
+        "fieldName": "change_in_dealer_long_all",
+        "dataTypeName": "number",
+        "position": 29
+      },
+      {
+        "name": "Change_in_Dealer_Short_All",
+        "fieldName": "change_in_dealer_short_all",
+        "dataTypeName": "number",
+        "position": 30
+      },
+      {
+        "name": "Change_in_Dealer_Spread_All",
+        "fieldName": "change_in_dealer_spread_all",
+        "dataTypeName": "number",
+        "position": 31
+      },
+      {
+        "name": "Change_in_Asset_Mgr_Long_All",
+        "fieldName": "change_in_asset_mgr_long",
+        "dataTypeName": "number",
+        "position": 32
+      },
+      {
+        "name": "Change_in_Asset_Mgr_Short_All",
+        "fieldName": "change_in_asset_mgr_short",
+        "dataTypeName": "number",
+        "position": 33
+      },
+      {
+        "name": "Change_in_Asset_Mgr_Spread_All",
+        "fieldName": "change_in_asset_mgr_spread",
+        "dataTypeName": "number",
+        "position": 34
+      },
+      {
+        "name": "Change_in_Lev_Money_Long_All",
+        "fieldName": "change_in_lev_money_long",
+        "dataTypeName": "number",
+        "position": 35
+      },
+      {
+        "name": "Change_in_Lev_Money_Short_All",
+        "fieldName": "change_in_lev_money_short",
+        "dataTypeName": "number",
+        "position": 36
+      },
+      {
+        "name": "Change_in_Lev_Money_Spread_All",
+        "fieldName": "change_in_lev_money_spread",
+        "dataTypeName": "number",
+        "position": 37
+      },
+      {
+        "name": "Change_in_Other_Rept_Long_All",
+        "fieldName": "change_in_other_rept_long",
+        "dataTypeName": "number",
+        "position": 38
+      },
+      {
+        "name": "Change_in_Other_Rept_Short_All",
+        "fieldName": "change_in_other_rept_short",
+        "dataTypeName": "number",
+        "position": 39
+      },
+      {
+        "name": "Change_in_Other_Rept_Spread_All",
+        "fieldName": "change_in_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 40
+      },
+      {
+        "name": "Change_in_Tot_Rept_Long_All",
+        "fieldName": "change_in_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 41
+      },
+      {
+        "name": "Change_in_Tot_Rept_Short_All",
+        "fieldName": "change_in_tot_rept_short",
+        "dataTypeName": "number",
+        "position": 42
+      },
+      {
+        "name": "Change_in_NonRept_Long_All",
+        "fieldName": "change_in_nonrept_long_all",
+        "dataTypeName": "number",
+        "position": 43
+      },
+      {
+        "name": "Change_in_NonRept_Short_All",
+        "fieldName": "change_in_nonrept_short_all",
+        "dataTypeName": "number",
+        "position": 44
+      },
+      {
+        "name": "Pct_of_Open_Interest_All",
+        "fieldName": "pct_of_open_interest_all",
+        "dataTypeName": "number",
+        "position": 45
+      },
+      {
+        "name": "Pct_of_OI_Dealer_Long_All",
+        "fieldName": "pct_of_oi_dealer_long_all",
+        "dataTypeName": "number",
+        "position": 46
+      },
+      {
+        "name": "Pct_of_OI_Dealer_Short_All",
+        "fieldName": "pct_of_oi_dealer_short_all",
+        "dataTypeName": "number",
+        "position": 47
+      },
+      {
+        "name": "Pct_of_OI_Dealer_Spread_All",
+        "fieldName": "pct_of_oi_dealer_spread_all",
+        "dataTypeName": "number",
+        "position": 48
+      },
+      {
+        "name": "Pct_of_OI_Asset_Mgr_Long_All",
+        "fieldName": "pct_of_oi_asset_mgr_long",
+        "dataTypeName": "number",
+        "position": 49
+      },
+      {
+        "name": "Pct_of_OI_Asset_Mgr_Short_All",
+        "fieldName": "pct_of_oi_asset_mgr_short",
+        "dataTypeName": "number",
+        "position": 50
+      },
+      {
+        "name": "Pct_of_OI_Asset_Mgr_Spread_All",
+        "fieldName": "pct_of_oi_asset_mgr_spread",
+        "dataTypeName": "number",
+        "position": 51
+      },
+      {
+        "name": "Pct_of_OI_Lev_Money_Long_All",
+        "fieldName": "pct_of_oi_lev_money_long",
+        "dataTypeName": "number",
+        "position": 52
+      },
+      {
+        "name": "Pct_of_OI_Lev_Money_Short_All",
+        "fieldName": "pct_of_oi_lev_money_short",
+        "dataTypeName": "number",
+        "position": 53
+      },
+      {
+        "name": "Pct_of_OI_Lev_Money_Spread_All",
+        "fieldName": "pct_of_oi_lev_money_spread",
+        "dataTypeName": "number",
+        "position": 54
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Long_All",
+        "fieldName": "pct_of_oi_other_rept_long",
+        "dataTypeName": "number",
+        "position": 55
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Short_All",
+        "fieldName": "pct_of_oi_other_rept_short",
+        "dataTypeName": "number",
+        "position": 56
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Spread_All",
+        "fieldName": "pct_of_oi_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 57
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Long_All",
+        "fieldName": "pct_of_oi_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 58
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Short_All",
+        "fieldName": "pct_of_oi_tot_rept_short",
+        "dataTypeName": "number",
+        "position": 59
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Long_All",
+        "fieldName": "pct_of_oi_nonrept_long_all",
+        "dataTypeName": "number",
+        "position": 60
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Short_All",
+        "fieldName": "pct_of_oi_nonrept_short_all",
+        "dataTypeName": "number",
+        "position": 61
+      },
+      {
+        "name": "Traders_Tot_All",
+        "fieldName": "traders_tot_all",
+        "dataTypeName": "number",
+        "position": 62
+      },
+      {
+        "name": "Traders_Dealer_Long_All",
+        "fieldName": "traders_dealer_long_all",
+        "dataTypeName": "number",
+        "position": 63
+      },
+      {
+        "name": "Traders_Dealer_Short_All",
+        "fieldName": "traders_dealer_short_all",
+        "dataTypeName": "number",
+        "position": 64
+      },
+      {
+        "name": "Traders_Dealer_Spread_All",
+        "fieldName": "traders_dealer_spread_all",
+        "dataTypeName": "number",
+        "position": 65
+      },
+      {
+        "name": "Traders_Asset_Mgr_Long_All",
+        "fieldName": "traders_asset_mgr_long_all",
+        "dataTypeName": "number",
+        "position": 66
+      },
+      {
+        "name": "Traders_Asset_Mgr_Short_All",
+        "fieldName": "traders_asset_mgr_short_all",
+        "dataTypeName": "number",
+        "position": 67
+      },
+      {
+        "name": "Traders_Asset_Mgr_Spread_All",
+        "fieldName": "traders_asset_mgr_spread",
+        "dataTypeName": "number",
+        "position": 68
+      },
+      {
+        "name": "Traders_Lev_Money_Long_All",
+        "fieldName": "traders_lev_money_long_all",
+        "dataTypeName": "number",
+        "position": 69
+      },
+      {
+        "name": "Traders_Lev_Money_Short_All",
+        "fieldName": "traders_lev_money_short_all",
+        "dataTypeName": "number",
+        "position": 70
+      },
+      {
+        "name": "Traders_Lev_Money_Spread_All",
+        "fieldName": "traders_lev_money_spread",
+        "dataTypeName": "number",
+        "position": 71
+      },
+      {
+        "name": "Traders_Other_Rept_Long_All",
+        "fieldName": "traders_other_rept_long_all",
+        "dataTypeName": "number",
+        "position": 72
+      },
+      {
+        "name": "Traders_Other_Rept_Short_All",
+        "fieldName": "traders_other_rept_short",
+        "dataTypeName": "number",
+        "position": 73
+      },
+      {
+        "name": "Traders_Other_Rept_Spread_All",
+        "fieldName": "traders_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 74
+      },
+      {
+        "name": "Traders_Tot_Rept_Long_All",
+        "fieldName": "traders_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 75
+      },
+      {
+        "name": "Traders_Tot_Rept_Short_All",
+        "fieldName": "traders_tot_rept_short_all",
+        "dataTypeName": "number",
+        "position": 76
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Long_All",
+        "fieldName": "conc_gross_le_4_tdr_long",
+        "dataTypeName": "number",
+        "position": 77
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Short_All",
+        "fieldName": "conc_gross_le_4_tdr_short",
+        "dataTypeName": "number",
+        "position": 78
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Long_All",
+        "fieldName": "conc_gross_le_8_tdr_long",
+        "dataTypeName": "number",
+        "position": 79
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Short_All",
+        "fieldName": "conc_gross_le_8_tdr_short",
+        "dataTypeName": "number",
+        "position": 80
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Long_All",
+        "fieldName": "conc_net_le_4_tdr_long_all",
+        "dataTypeName": "number",
+        "position": 81
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Short_All",
+        "fieldName": "conc_net_le_4_tdr_short_all",
+        "dataTypeName": "number",
+        "position": 82
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Long_All",
+        "fieldName": "conc_net_le_8_tdr_long_all",
+        "dataTypeName": "number",
+        "position": 83
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Short_All",
+        "fieldName": "conc_net_le_8_tdr_short_all",
+        "dataTypeName": "number",
+        "position": 84
+      },
+      {
+        "name": "Contract_Units",
+        "fieldName": "contract_units",
+        "dataTypeName": "text",
+        "position": 85
+      },
+      {
+        "name": "CFTC_SubGroup_Code",
+        "fieldName": "cftc_subgroup_code",
+        "dataTypeName": "text",
+        "position": 86
+      },
+      {
+        "name": "COMMODITY_NAME",
+        "fieldName": "commodity",
+        "dataTypeName": "text",
+        "position": 87
+      },
+      {
+        "name": "COMMODITY_SUBGROUP_NAME",
+        "fieldName": "commodity_subgroup_name",
+        "dataTypeName": "text",
+        "position": 88
+      },
+      {
+        "name": "COMMODITY_GROUP_NAME",
+        "fieldName": "commodity_group_name",
+        "dataTypeName": "text",
+        "position": 89
+      },
+      {
+        "name": "FutOnly_or_Combined",
+        "fieldName": "futonly_or_combined",
+        "dataTypeName": "text",
+        "position": 90
+      }
+    ]
+  },
+  {
+    "id": "cftc-72hh-3qpy",
+    "url": "https://publicreporting.cftc.gov/api/views/72hh-3qpy.json",
+    "checked": "2026-10-06",
+    "observations": 0,
+    "http_status": 200,
+    "name": "Disaggregated - Futures Only",
+    "viewType": "tabular",
+    "displayType": "table",
+    "description": "This is a report of futures only positions. The Disaggregated reports are broken down by Agriculture and Natural Resource contracts. The Disaggregated reports break down reportable open interest positions into four classifications: Producer/Merchant, Swap Dealers, Managed Money and Other Reportables.",
+    "columns": [
+      {
+        "name": "ID",
+        "fieldName": "id",
+        "dataTypeName": "text",
+        "position": 1
+      },
+      {
+        "name": "Market_and_Exchange_Names",
+        "fieldName": "market_and_exchange_names",
+        "dataTypeName": "text",
+        "position": 2
+      },
+      {
+        "name": "Report_Date_as_YYYY_MM_DD",
+        "fieldName": "report_date_as_yyyy_mm_dd",
+        "dataTypeName": "calendar_date",
+        "position": 3
+      },
+      {
+        "name": "YYYY Report Week WW",
+        "fieldName": "yyyy_report_week_ww",
+        "dataTypeName": "text",
+        "position": 4
+      },
+      {
+        "name": "Contract_Market_Name",
+        "fieldName": "contract_market_name",
+        "dataTypeName": "text",
+        "position": 5
+      },
+      {
+        "name": "CFTC_Contract_Market_Code",
+        "fieldName": "cftc_contract_market_code",
+        "dataTypeName": "text",
+        "position": 6
+      },
+      {
+        "name": "CFTC_Market_Code",
+        "fieldName": "cftc_market_code",
+        "dataTypeName": "text",
+        "position": 7
+      },
+      {
+        "name": "CFTC_Region_Code",
+        "fieldName": "cftc_region_code",
+        "dataTypeName": "text",
+        "position": 8
+      },
+      {
+        "name": "CFTC_Commodity_Code",
+        "fieldName": "cftc_commodity_code",
+        "dataTypeName": "text",
+        "position": 9
+      },
+      {
+        "name": "Commodity Name",
+        "fieldName": "commodity_name",
+        "dataTypeName": "text",
+        "position": 10
+      },
+      {
+        "name": "Open_Interest_All",
+        "fieldName": "open_interest_all",
+        "dataTypeName": "number",
+        "position": 11
+      },
+      {
+        "name": "Prod_Merc_Positions_Long_All",
+        "fieldName": "prod_merc_positions_long",
+        "dataTypeName": "number",
+        "position": 12
+      },
+      {
+        "name": "Prod_Merc_Positions_Short_All",
+        "fieldName": "prod_merc_positions_short",
+        "dataTypeName": "number",
+        "position": 13
+      },
+      {
+        "name": "Swap_Positions_Long_All",
+        "fieldName": "swap_positions_long_all",
+        "dataTypeName": "number",
+        "position": 14
+      },
+      {
+        "name": "Swap__Positions_Short_All",
+        "fieldName": "swap__positions_short_all",
+        "dataTypeName": "number",
+        "position": 15
+      },
+      {
+        "name": "Swap__Positions_Spread_All",
+        "fieldName": "swap__positions_spread_all",
+        "dataTypeName": "number",
+        "position": 16
+      },
+      {
+        "name": "M_Money_Positions_Long_All",
+        "fieldName": "m_money_positions_long_all",
+        "dataTypeName": "number",
+        "position": 17
+      },
+      {
+        "name": "M_Money_Positions_Short_All",
+        "fieldName": "m_money_positions_short_all",
+        "dataTypeName": "number",
+        "position": 18
+      },
+      {
+        "name": "M_Money_Positions_Spread_All",
+        "fieldName": "m_money_positions_spread",
+        "dataTypeName": "number",
+        "position": 19
+      },
+      {
+        "name": "Other_Rept_Positions_Long_All",
+        "fieldName": "other_rept_positions_long",
+        "dataTypeName": "number",
+        "position": 20
+      },
+      {
+        "name": "Other_Rept_Positions_Short_All",
+        "fieldName": "other_rept_positions_short",
+        "dataTypeName": "number",
+        "position": 21
+      },
+      {
+        "name": "Other_Rept_Positions_Spread_All",
+        "fieldName": "other_rept_positions_spread",
+        "dataTypeName": "number",
+        "position": 22
+      },
+      {
+        "name": "Tot_Rept_Positions_Long_All",
+        "fieldName": "tot_rept_positions_long_all",
+        "dataTypeName": "number",
+        "position": 23
+      },
+      {
+        "name": "Tot_Rept_Positions_Short_All",
+        "fieldName": "tot_rept_positions_short",
+        "dataTypeName": "number",
+        "position": 24
+      },
+      {
+        "name": "NonRept_Positions_Long_All",
+        "fieldName": "nonrept_positions_long_all",
+        "dataTypeName": "number",
+        "position": 25
+      },
+      {
+        "name": "NonRept_Positions_Short_All",
+        "fieldName": "nonrept_positions_short_all",
+        "dataTypeName": "number",
+        "position": 26
+      },
+      {
+        "name": "Open_Interest_Old",
+        "fieldName": "open_interest_old",
+        "dataTypeName": "number",
+        "position": 27
+      },
+      {
+        "name": "Prod_Merc_Positions_Long_Old",
+        "fieldName": "prod_merc_positions_long_1",
+        "dataTypeName": "number",
+        "position": 28
+      },
+      {
+        "name": "Prod_Merc_Positions_Short_Old",
+        "fieldName": "prod_merc_positions_short_1",
+        "dataTypeName": "number",
+        "position": 29
+      },
+      {
+        "name": "Swap_Positions_Long_Old",
+        "fieldName": "swap_positions_long_old",
+        "dataTypeName": "number",
+        "position": 30
+      },
+      {
+        "name": "Swap__Positions_Short_Old",
+        "fieldName": "swap__positions_short_old",
+        "dataTypeName": "number",
+        "position": 31
+      },
+      {
+        "name": "Swap__Positions_Spread_Old",
+        "fieldName": "swap__positions_spread_old",
+        "dataTypeName": "number",
+        "position": 32
+      },
+      {
+        "name": "M_Money_Positions_Long_Old",
+        "fieldName": "m_money_positions_long_old",
+        "dataTypeName": "number",
+        "position": 33
+      },
+      {
+        "name": "M_Money_Positions_Short_Old",
+        "fieldName": "m_money_positions_short_old",
+        "dataTypeName": "number",
+        "position": 34
+      },
+      {
+        "name": "M_Money_Positions_Spread_Old",
+        "fieldName": "m_money_positions_spread_1",
+        "dataTypeName": "number",
+        "position": 35
+      },
+      {
+        "name": "Other_Rept_Positions_Long_Old",
+        "fieldName": "other_rept_positions_long_1",
+        "dataTypeName": "number",
+        "position": 36
+      },
+      {
+        "name": "Other_Rept_Positions_Short_Old",
+        "fieldName": "other_rept_positions_short_1",
+        "dataTypeName": "number",
+        "position": 37
+      },
+      {
+        "name": "Other_Rept_Positions_Spread_Old",
+        "fieldName": "other_rept_positions_spread_1",
+        "dataTypeName": "number",
+        "position": 38
+      },
+      {
+        "name": "Tot_Rept_Positions_Long_Old",
+        "fieldName": "tot_rept_positions_long_old",
+        "dataTypeName": "number",
+        "position": 39
+      },
+      {
+        "name": "Tot_Rept_Positions_Short_Old",
+        "fieldName": "tot_rept_positions_short_1",
+        "dataTypeName": "number",
+        "position": 40
+      },
+      {
+        "name": "NonRept_Positions_Long_Old",
+        "fieldName": "nonrept_positions_long_old",
+        "dataTypeName": "number",
+        "position": 41
+      },
+      {
+        "name": "NonRept_Positions_Short_Old",
+        "fieldName": "nonrept_positions_short_old",
+        "dataTypeName": "number",
+        "position": 42
+      },
+      {
+        "name": "Open_Interest_Other",
+        "fieldName": "open_interest_other",
+        "dataTypeName": "number",
+        "position": 43
+      },
+      {
+        "name": "Prod_Merc_Positions_Long_Other",
+        "fieldName": "prod_merc_positions_long_2",
+        "dataTypeName": "number",
+        "position": 44
+      },
+      {
+        "name": "Prod_Merc_Positions_Short_Other",
+        "fieldName": "prod_merc_positions_short_2",
+        "dataTypeName": "number",
+        "position": 45
+      },
+      {
+        "name": "Swap_Positions_Long_Other",
+        "fieldName": "swap_positions_long_other",
+        "dataTypeName": "number",
+        "position": 46
+      },
+      {
+        "name": "Swap__Positions_Short_Other",
+        "fieldName": "swap__positions_short_other",
+        "dataTypeName": "number",
+        "position": 47
+      },
+      {
+        "name": "Swap__Positions_Spread_Other",
+        "fieldName": "swap__positions_spread_other",
+        "dataTypeName": "number",
+        "position": 48
+      },
+      {
+        "name": "M_Money_Positions_Long_Other",
+        "fieldName": "m_money_positions_long_other",
+        "dataTypeName": "number",
+        "position": 49
+      },
+      {
+        "name": "M_Money_Positions_Short_Other",
+        "fieldName": "m_money_positions_short_other",
+        "dataTypeName": "number",
+        "position": 50
+      },
+      {
+        "name": "M_Money_Positions_Spread_Other",
+        "fieldName": "m_money_positions_spread_2",
+        "dataTypeName": "number",
+        "position": 51
+      },
+      {
+        "name": "Other_Rept_Positions_Long_Other",
+        "fieldName": "other_rept_positions_long_2",
+        "dataTypeName": "number",
+        "position": 52
+      },
+      {
+        "name": "Other_Rept_Positions_Short_Other",
+        "fieldName": "other_rept_positions_short_2",
+        "dataTypeName": "number",
+        "position": 53
+      },
+      {
+        "name": "Other_Rept_Positions_Spread_Other",
+        "fieldName": "other_rept_positions_spread_2",
+        "dataTypeName": "number",
+        "position": 54
+      },
+      {
+        "name": "Tot_Rept_Positions_Long_Other",
+        "fieldName": "tot_rept_positions_long_other",
+        "dataTypeName": "number",
+        "position": 55
+      },
+      {
+        "name": "Tot_Rept_Positions_Short_Other",
+        "fieldName": "tot_rept_positions_short_2",
+        "dataTypeName": "number",
+        "position": 56
+      },
+      {
+        "name": "NonRept_Positions_Long_Other",
+        "fieldName": "nonrept_positions_long_other",
+        "dataTypeName": "number",
+        "position": 57
+      },
+      {
+        "name": "NonRept_Positions_Short_Other",
+        "fieldName": "nonrept_positions_short_other",
+        "dataTypeName": "number",
+        "position": 58
+      },
+      {
+        "name": "Change_in_Open_Interest_All",
+        "fieldName": "change_in_open_interest_all",
+        "dataTypeName": "number",
+        "position": 59
+      },
+      {
+        "name": "Change_in_Prod_Merc_Long_All",
+        "fieldName": "change_in_prod_merc_long",
+        "dataTypeName": "number",
+        "position": 60
+      },
+      {
+        "name": "Change_in_Prod_Merc_Short_All",
+        "fieldName": "change_in_prod_merc_short",
+        "dataTypeName": "number",
+        "position": 61
+      },
+      {
+        "name": "Change_in_Swap_Long_All",
+        "fieldName": "change_in_swap_long_all",
+        "dataTypeName": "number",
+        "position": 62
+      },
+      {
+        "name": "Change_in_Swap_Short_All",
+        "fieldName": "change_in_swap_short_all",
+        "dataTypeName": "number",
+        "position": 63
+      },
+      {
+        "name": "Change_in_Swap_Spread_All",
+        "fieldName": "change_in_swap_spread_all",
+        "dataTypeName": "number",
+        "position": 64
+      },
+      {
+        "name": "Change_in_M_Money_Long_All",
+        "fieldName": "change_in_m_money_long_all",
+        "dataTypeName": "number",
+        "position": 65
+      },
+      {
+        "name": "Change_in_M_Money_Short_All",
+        "fieldName": "change_in_m_money_short_all",
+        "dataTypeName": "number",
+        "position": 66
+      },
+      {
+        "name": "Change_in_M_Money_Spread_All",
+        "fieldName": "change_in_m_money_spread",
+        "dataTypeName": "number",
+        "position": 67
+      },
+      {
+        "name": "Change_in_Other_Rept_Long_All",
+        "fieldName": "change_in_other_rept_long",
+        "dataTypeName": "number",
+        "position": 68
+      },
+      {
+        "name": "Change_in_Other_Rept_Short_All",
+        "fieldName": "change_in_other_rept_short",
+        "dataTypeName": "number",
+        "position": 69
+      },
+      {
+        "name": "Change_in_Other_Rept_Spread_All",
+        "fieldName": "change_in_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 70
+      },
+      {
+        "name": "Change_in_Tot_Rept_Long_All",
+        "fieldName": "change_in_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 71
+      },
+      {
+        "name": "Change_in_Tot_Rept_Short_All",
+        "fieldName": "change_in_tot_rept_short",
+        "dataTypeName": "number",
+        "position": 72
+      },
+      {
+        "name": "Change_in_NonRept_Long_All",
+        "fieldName": "change_in_nonrept_long_all",
+        "dataTypeName": "number",
+        "position": 73
+      },
+      {
+        "name": "Change_in_NonRept_Short_All",
+        "fieldName": "change_in_nonrept_short_all",
+        "dataTypeName": "number",
+        "position": 74
+      },
+      {
+        "name": "Pct_of_Open_Interest_All",
+        "fieldName": "pct_of_open_interest_all",
+        "dataTypeName": "number",
+        "position": 75
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Long_All",
+        "fieldName": "pct_of_oi_prod_merc_long",
+        "dataTypeName": "number",
+        "position": 76
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Short_All",
+        "fieldName": "pct_of_oi_prod_merc_short",
+        "dataTypeName": "number",
+        "position": 77
+      },
+      {
+        "name": "Pct_of_OI_Swap_Long_All",
+        "fieldName": "pct_of_oi_swap_long_all",
+        "dataTypeName": "number",
+        "position": 78
+      },
+      {
+        "name": "Pct_of_OI_Swap_Short_All",
+        "fieldName": "pct_of_oi_swap_short_all",
+        "dataTypeName": "number",
+        "position": 79
+      },
+      {
+        "name": "Pct_of_OI_Swap_Spread_All",
+        "fieldName": "pct_of_oi_swap_spread_all",
+        "dataTypeName": "number",
+        "position": 80
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Long_All",
+        "fieldName": "pct_of_oi_m_money_long_all",
+        "dataTypeName": "number",
+        "position": 81
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Short_All",
+        "fieldName": "pct_of_oi_m_money_short_all",
+        "dataTypeName": "number",
+        "position": 82
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Spread_All",
+        "fieldName": "pct_of_oi_m_money_spread",
+        "dataTypeName": "number",
+        "position": 83
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Long_All",
+        "fieldName": "pct_of_oi_other_rept_long",
+        "dataTypeName": "number",
+        "position": 84
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Short_All",
+        "fieldName": "pct_of_oi_other_rept_short",
+        "dataTypeName": "number",
+        "position": 85
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Spread_All",
+        "fieldName": "pct_of_oi_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 86
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Long_All",
+        "fieldName": "pct_of_oi_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 87
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Short_All",
+        "fieldName": "pct_of_oi_tot_rept_short",
+        "dataTypeName": "number",
+        "position": 88
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Long_All",
+        "fieldName": "pct_of_oi_nonrept_long_all",
+        "dataTypeName": "number",
+        "position": 89
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Short_All",
+        "fieldName": "pct_of_oi_nonrept_short_all",
+        "dataTypeName": "number",
+        "position": 90
+      },
+      {
+        "name": "Pct_of_Open_Interest_Old",
+        "fieldName": "pct_of_open_interest_old",
+        "dataTypeName": "number",
+        "position": 91
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Long_Old",
+        "fieldName": "pct_of_oi_prod_merc_long_1",
+        "dataTypeName": "number",
+        "position": 92
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Short_Old",
+        "fieldName": "pct_of_oi_prod_merc_short_1",
+        "dataTypeName": "number",
+        "position": 93
+      },
+      {
+        "name": "Pct_of_OI_Swap_Long_Old",
+        "fieldName": "pct_of_oi_swap_long_old",
+        "dataTypeName": "number",
+        "position": 94
+      },
+      {
+        "name": "Pct_of_OI_Swap_Short_Old",
+        "fieldName": "pct_of_oi_swap_short_old",
+        "dataTypeName": "number",
+        "position": 95
+      },
+      {
+        "name": "Pct_of_OI_Swap_Spread_Old",
+        "fieldName": "pct_of_oi_swap_spread_old",
+        "dataTypeName": "number",
+        "position": 96
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Long_Old",
+        "fieldName": "pct_of_oi_m_money_long_old",
+        "dataTypeName": "number",
+        "position": 97
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Short_Old",
+        "fieldName": "pct_of_oi_m_money_short_old",
+        "dataTypeName": "number",
+        "position": 98
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Spread_Old",
+        "fieldName": "pct_of_oi_m_money_spread_1",
+        "dataTypeName": "number",
+        "position": 99
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Long_Old",
+        "fieldName": "pct_of_oi_other_rept_long_1",
+        "dataTypeName": "number",
+        "position": 100
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Short_Old",
+        "fieldName": "pct_of_oi_other_rept_short_1",
+        "dataTypeName": "number",
+        "position": 101
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Spread_Old",
+        "fieldName": "pct_of_oi_other_rept_spread_1",
+        "dataTypeName": "number",
+        "position": 102
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Long_Old",
+        "fieldName": "pct_of_oi_tot_rept_long_old",
+        "dataTypeName": "number",
+        "position": 103
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Short_Old",
+        "fieldName": "pct_of_oi_tot_rept_short_1",
+        "dataTypeName": "number",
+        "position": 104
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Long_Old",
+        "fieldName": "pct_of_oi_nonrept_long_old",
+        "dataTypeName": "number",
+        "position": 105
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Short_Old",
+        "fieldName": "pct_of_oi_nonrept_short_old",
+        "dataTypeName": "number",
+        "position": 106
+      },
+      {
+        "name": "Pct_of_Open_Interest_Other",
+        "fieldName": "pct_of_open_interest_other",
+        "dataTypeName": "number",
+        "position": 107
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Long_Other",
+        "fieldName": "pct_of_oi_prod_merc_long_2",
+        "dataTypeName": "number",
+        "position": 108
+      },
+      {
+        "name": "Pct_of_OI_Prod_Merc_Short_Other",
+        "fieldName": "pct_of_oi_prod_merc_short_2",
+        "dataTypeName": "number",
+        "position": 109
+      },
+      {
+        "name": "Pct_of_OI_Swap_Long_Other",
+        "fieldName": "pct_of_oi_swap_long_other",
+        "dataTypeName": "number",
+        "position": 110
+      },
+      {
+        "name": "Pct_of_OI_Swap_Short_Other",
+        "fieldName": "pct_of_oi_swap_short_other",
+        "dataTypeName": "number",
+        "position": 111
+      },
+      {
+        "name": "Pct_of_OI_Swap_Spread_Other",
+        "fieldName": "pct_of_oi_swap_spread_other",
+        "dataTypeName": "number",
+        "position": 112
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Long_Other",
+        "fieldName": "pct_of_oi_m_money_long_other",
+        "dataTypeName": "number",
+        "position": 113
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Short_Other",
+        "fieldName": "pct_of_oi_m_money_short_other",
+        "dataTypeName": "number",
+        "position": 114
+      },
+      {
+        "name": "Pct_of_OI_M_Money_Spread_Other",
+        "fieldName": "pct_of_oi_m_money_spread_2",
+        "dataTypeName": "number",
+        "position": 115
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Long_Other",
+        "fieldName": "pct_of_oi_other_rept_long_2",
+        "dataTypeName": "number",
+        "position": 116
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Short_Other",
+        "fieldName": "pct_of_oi_other_rept_short_2",
+        "dataTypeName": "number",
+        "position": 117
+      },
+      {
+        "name": "Pct_of_OI_Other_Rept_Spread_Other",
+        "fieldName": "pct_of_oi_other_rept_spread_2",
+        "dataTypeName": "number",
+        "position": 118
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Long_Other",
+        "fieldName": "pct_of_oi_tot_rept_long_other",
+        "dataTypeName": "number",
+        "position": 119
+      },
+      {
+        "name": "Pct_of_OI_Tot_Rept_Short_Other",
+        "fieldName": "pct_of_oi_tot_rept_short_2",
+        "dataTypeName": "number",
+        "position": 120
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Long_Other",
+        "fieldName": "pct_of_oi_nonrept_long_other",
+        "dataTypeName": "number",
+        "position": 121
+      },
+      {
+        "name": "Pct_of_OI_NonRept_Short_Other",
+        "fieldName": "pct_of_oi_nonrept_short_other",
+        "dataTypeName": "number",
+        "position": 122
+      },
+      {
+        "name": "Traders_Tot_All",
+        "fieldName": "traders_tot_all",
+        "dataTypeName": "number",
+        "position": 123
+      },
+      {
+        "name": "Traders_Prod_Merc_Long_All",
+        "fieldName": "traders_prod_merc_long_all",
+        "dataTypeName": "number",
+        "position": 124
+      },
+      {
+        "name": "Traders_Prod_Merc_Short_All",
+        "fieldName": "traders_prod_merc_short_all",
+        "dataTypeName": "number",
+        "position": 125
+      },
+      {
+        "name": "Traders_Swap_Long_All",
+        "fieldName": "traders_swap_long_all",
+        "dataTypeName": "number",
+        "position": 126
+      },
+      {
+        "name": "Traders_Swap_Short_All",
+        "fieldName": "traders_swap_short_all",
+        "dataTypeName": "number",
+        "position": 127
+      },
+      {
+        "name": "Traders_Swap_Spread_All",
+        "fieldName": "traders_swap_spread_all",
+        "dataTypeName": "number",
+        "position": 128
+      },
+      {
+        "name": "Traders_M_Money_Long_All",
+        "fieldName": "traders_m_money_long_all",
+        "dataTypeName": "number",
+        "position": 129
+      },
+      {
+        "name": "Traders_M_Money_Short_All",
+        "fieldName": "traders_m_money_short_all",
+        "dataTypeName": "number",
+        "position": 130
+      },
+      {
+        "name": "Traders_M_Money_Spread_All",
+        "fieldName": "traders_m_money_spread_all",
+        "dataTypeName": "number",
+        "position": 131
+      },
+      {
+        "name": "Traders_Other_Rept_Long_All",
+        "fieldName": "traders_other_rept_long_all",
+        "dataTypeName": "number",
+        "position": 132
+      },
+      {
+        "name": "Traders_Other_Rept_Short_All",
+        "fieldName": "traders_other_rept_short",
+        "dataTypeName": "number",
+        "position": 133
+      },
+      {
+        "name": "Traders_Other_Rept_Spread_All",
+        "fieldName": "traders_other_rept_spread",
+        "dataTypeName": "number",
+        "position": 134
+      },
+      {
+        "name": "Traders_Tot_Rept_Long_All",
+        "fieldName": "traders_tot_rept_long_all",
+        "dataTypeName": "number",
+        "position": 135
+      },
+      {
+        "name": "Traders_Tot_Rept_Short_All",
+        "fieldName": "traders_tot_rept_short_all",
+        "dataTypeName": "number",
+        "position": 136
+      },
+      {
+        "name": "Traders_Tot_Old",
+        "fieldName": "traders_tot_old",
+        "dataTypeName": "number",
+        "position": 137
+      },
+      {
+        "name": "Traders_Prod_Merc_Long_Old",
+        "fieldName": "traders_prod_merc_long_old",
+        "dataTypeName": "number",
+        "position": 138
+      },
+      {
+        "name": "Traders_Prod_Merc_Short_Old",
+        "fieldName": "traders_prod_merc_short_old",
+        "dataTypeName": "number",
+        "position": 139
+      },
+      {
+        "name": "Traders_Swap_Long_Old",
+        "fieldName": "traders_swap_long_old",
+        "dataTypeName": "number",
+        "position": 140
+      },
+      {
+        "name": "Traders_Swap_Short_Old",
+        "fieldName": "traders_swap_short_old",
+        "dataTypeName": "number",
+        "position": 141
+      },
+      {
+        "name": "Traders_Swap_Spread_Old",
+        "fieldName": "traders_swap_spread_old",
+        "dataTypeName": "number",
+        "position": 142
+      },
+      {
+        "name": "Traders_M_Money_Long_Old",
+        "fieldName": "traders_m_money_long_old",
+        "dataTypeName": "number",
+        "position": 143
+      },
+      {
+        "name": "Traders_M_Money_Short_Old",
+        "fieldName": "traders_m_money_short_old",
+        "dataTypeName": "number",
+        "position": 144
+      },
+      {
+        "name": "Traders_M_Money_Spread_Old",
+        "fieldName": "traders_m_money_spread_old",
+        "dataTypeName": "number",
+        "position": 145
+      },
+      {
+        "name": "Traders_Other_Rept_Long_Old",
+        "fieldName": "traders_other_rept_long_old",
+        "dataTypeName": "number",
+        "position": 146
+      },
+      {
+        "name": "Traders_Other_Rept_Short_Old",
+        "fieldName": "traders_other_rept_short_1",
+        "dataTypeName": "number",
+        "position": 147
+      },
+      {
+        "name": "Traders_Other_Rept_Spread_Old",
+        "fieldName": "traders_other_rept_spread_1",
+        "dataTypeName": "number",
+        "position": 148
+      },
+      {
+        "name": "Traders_Tot_Rept_Long_Old",
+        "fieldName": "traders_tot_rept_long_old",
+        "dataTypeName": "number",
+        "position": 149
+      },
+      {
+        "name": "Traders_Tot_Rept_Short_Old",
+        "fieldName": "traders_tot_rept_short_old",
+        "dataTypeName": "number",
+        "position": 150
+      },
+      {
+        "name": "Traders_Tot_Other",
+        "fieldName": "traders_tot_other",
+        "dataTypeName": "number",
+        "position": 151
+      },
+      {
+        "name": "Traders_Prod_Merc_Long_Other",
+        "fieldName": "traders_prod_merc_long_other",
+        "dataTypeName": "number",
+        "position": 152
+      },
+      {
+        "name": "Traders_Prod_Merc_Short_Other",
+        "fieldName": "traders_prod_merc_short_other",
+        "dataTypeName": "number",
+        "position": 153
+      },
+      {
+        "name": "Traders_Swap_Long_Other",
+        "fieldName": "traders_swap_long_other",
+        "dataTypeName": "number",
+        "position": 154
+      },
+      {
+        "name": "Traders_Swap_Short_Other",
+        "fieldName": "traders_swap_short_other",
+        "dataTypeName": "number",
+        "position": 155
+      },
+      {
+        "name": "Traders_Swap_Spread_Other",
+        "fieldName": "traders_swap_spread_other",
+        "dataTypeName": "number",
+        "position": 156
+      },
+      {
+        "name": "Traders_M_Money_Long_Other",
+        "fieldName": "traders_m_money_long_other",
+        "dataTypeName": "number",
+        "position": 157
+      },
+      {
+        "name": "Traders_M_Money_Short_Other",
+        "fieldName": "traders_m_money_short_other",
+        "dataTypeName": "number",
+        "position": 158
+      },
+      {
+        "name": "Traders_M_Money_Spread_Other",
+        "fieldName": "traders_m_money_spread_other",
+        "dataTypeName": "number",
+        "position": 159
+      },
+      {
+        "name": "Traders_Other_Rept_Long_Other",
+        "fieldName": "traders_other_rept_long_other",
+        "dataTypeName": "number",
+        "position": 160
+      },
+      {
+        "name": "Traders_Other_Rept_Short_Other",
+        "fieldName": "traders_other_rept_short_2",
+        "dataTypeName": "number",
+        "position": 161
+      },
+      {
+        "name": "Traders_Other_Rept_Spread_Other",
+        "fieldName": "traders_other_rept_spread_2",
+        "dataTypeName": "number",
+        "position": 162
+      },
+      {
+        "name": "Traders_Tot_Rept_Long_Other",
+        "fieldName": "traders_tot_rept_long_other",
+        "dataTypeName": "number",
+        "position": 163
+      },
+      {
+        "name": "Traders_Tot_Rept_Short_Other",
+        "fieldName": "traders_tot_rept_short_other",
+        "dataTypeName": "number",
+        "position": 164
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Long_All",
+        "fieldName": "conc_gross_le_4_tdr_long",
+        "dataTypeName": "number",
+        "position": 165
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Short_All",
+        "fieldName": "conc_gross_le_4_tdr_short",
+        "dataTypeName": "number",
+        "position": 166
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Long_All",
+        "fieldName": "conc_gross_le_8_tdr_long",
+        "dataTypeName": "number",
+        "position": 167
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Short_All",
+        "fieldName": "conc_gross_le_8_tdr_short",
+        "dataTypeName": "number",
+        "position": 168
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Long_All",
+        "fieldName": "conc_net_le_4_tdr_long_all",
+        "dataTypeName": "number",
+        "position": 169
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Short_All",
+        "fieldName": "conc_net_le_4_tdr_short_all",
+        "dataTypeName": "number",
+        "position": 170
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Long_All",
+        "fieldName": "conc_net_le_8_tdr_long_all",
+        "dataTypeName": "number",
+        "position": 171
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Short_All",
+        "fieldName": "conc_net_le_8_tdr_short_all",
+        "dataTypeName": "number",
+        "position": 172
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Long_Old",
+        "fieldName": "conc_gross_le_4_tdr_long_1",
+        "dataTypeName": "number",
+        "position": 173
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Short_Old",
+        "fieldName": "conc_gross_le_4_tdr_short_1",
+        "dataTypeName": "number",
+        "position": 174
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Long_Old",
+        "fieldName": "conc_gross_le_8_tdr_long_1",
+        "dataTypeName": "number",
+        "position": 175
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Short_Old",
+        "fieldName": "conc_gross_le_8_tdr_short_1",
+        "dataTypeName": "number",
+        "position": 176
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Long_Old",
+        "fieldName": "conc_net_le_4_tdr_long_old",
+        "dataTypeName": "number",
+        "position": 177
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Short_Old",
+        "fieldName": "conc_net_le_4_tdr_short_old",
+        "dataTypeName": "number",
+        "position": 178
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Long_Old",
+        "fieldName": "conc_net_le_8_tdr_long_old",
+        "dataTypeName": "number",
+        "position": 179
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Short_Old",
+        "fieldName": "conc_net_le_8_tdr_short_old",
+        "dataTypeName": "number",
+        "position": 180
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Long_Other",
+        "fieldName": "conc_gross_le_4_tdr_long_2",
+        "dataTypeName": "number",
+        "position": 181
+      },
+      {
+        "name": "Conc_Gross_LE_4_TDR_Short_Other",
+        "fieldName": "conc_gross_le_4_tdr_short_2",
+        "dataTypeName": "number",
+        "position": 182
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Long_Other",
+        "fieldName": "conc_gross_le_8_tdr_long_2",
+        "dataTypeName": "number",
+        "position": 183
+      },
+      {
+        "name": "Conc_Gross_LE_8_TDR_Short_Other",
+        "fieldName": "conc_gross_le_8_tdr_short_2",
+        "dataTypeName": "number",
+        "position": 184
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Long_Other",
+        "fieldName": "conc_net_le_4_tdr_long_other",
+        "dataTypeName": "number",
+        "position": 185
+      },
+      {
+        "name": "Conc_Net_LE_4_TDR_Short_Other",
+        "fieldName": "conc_net_le_4_tdr_short_other",
+        "dataTypeName": "number",
+        "position": 186
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Long_Other",
+        "fieldName": "conc_net_le_8_tdr_long_other",
+        "dataTypeName": "number",
+        "position": 187
+      },
+      {
+        "name": "Conc_Net_LE_8_TDR_Short_Other",
+        "fieldName": "conc_net_le_8_tdr_short_other",
+        "dataTypeName": "number",
+        "position": 188
+      },
+      {
+        "name": "Contract_Units",
+        "fieldName": "contract_units",
+        "dataTypeName": "text",
+        "position": 189
+      },
+      {
+        "name": "CFTC_SubGroup_Code",
+        "fieldName": "cftc_subgroup_code",
+        "dataTypeName": "text",
+        "position": 190
+      },
+      {
+        "name": "COMMODITY_NAME",
+        "fieldName": "commodity",
+        "dataTypeName": "text",
+        "position": 191
+      },
+      {
+        "name": "COMMODITY_SUBGROUP_NAME",
+        "fieldName": "commodity_subgroup_name",
+        "dataTypeName": "text",
+        "position": 192
+      },
+      {
+        "name": "COMMODITY_GROUP_NAME",
+        "fieldName": "commodity_group_name",
+        "dataTypeName": "text",
+        "position": 193
+      },
+      {
+        "name": "FutOnly_or_Combined",
+        "fieldName": "futonly_or_combined",
+        "dataTypeName": "text",
+        "position": 194
+      }
+    ]
+  },
+  {
+    "id": "cftc-rj6x-va3z",
+    "url": "https://publicreporting.cftc.gov/api/views/rj6x-va3z.json",
+    "checked": "2026-10-06",
+    "observations": 0,
+    "http_status": 200,
+    "name": "ProductHierarchy",
+    "viewType": "tabular",
+    "displayType": "table",
+    "description": "CFTC Product Hierarchy for Exchange Commodities.",
+    "columns": [
+      {
+        "name": "CONTRACT_MARKET_CODE",
+        "fieldName": "contract_market_code",
+        "dataTypeName": "text",
+        "position": 1
+      },
+      {
+        "name": "COMMODITY_NAME",
+        "fieldName": "commodity_name",
+        "dataTypeName": "text",
+        "position": 2
+      },
+      {
+        "name": "COMMODITY_SUBGROUP_NAME",
+        "fieldName": "commodity_subgroup_name",
+        "dataTypeName": "text",
+        "position": 3
+      },
+      {
+        "name": "COMMODITY_GROUP_NAME",
+        "fieldName": "commodity_group_name",
+        "dataTypeName": "text",
+        "position": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,366 @@
+{
+  "manual": "https://www.stat-search.boj.or.jp/info/api_manual_en.pdf",
+  "databases": [
+    {
+      "db": "IR01",
+      "name": "基准贴现率与基准贷款利率",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 3
+    },
+    {
+      "db": "IR02",
+      "name": "各类存款挂牌平均利率",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "IR03",
+      "name": "按期限的定期存款平均利率",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "IR04",
+      "name": "贷款与贴现平均合同利率",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM01",
+      "name": "无担保隔夜拆借利率",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 6
+    },
+    {
+      "db": "FM02",
+      "name": "短期货币市场利率",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM03",
+      "name": "短期货币市场余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM04",
+      "name": "拆借市场余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM05",
+      "name": "公债与公司债发行偿还及余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM06",
+      "name": "按购买者的政府债券交易",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM07",
+      "name": "政府债券柜台销售历史参考",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FM08",
+      "name": "外汇汇率",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 62
+    },
+    {
+      "db": "FM09",
+      "name": "有效汇率",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 5
+    },
+    {
+      "db": "PS01",
+      "name": "支付与结算系统",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PS02",
+      "name": "交割失败统计",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD01",
+      "name": "基础货币",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 15
+    },
+    {
+      "db": "MD02",
+      "name": "货币存量",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD03",
+      "name": "货币概览",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD04",
+      "name": "旧货币M2加CD及信贷变动",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD05",
+      "name": "流通货币",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD06",
+      "name": "央行账户余额变动与市场操作",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD07",
+      "name": "准备金",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD08",
+      "name": "按部门的央行账户余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD09",
+      "name": "基础货币与央行交易",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD10",
+      "name": "按存款人的存款余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD11",
+      "name": "存款库存现金贷款及贴现票据",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD12",
+      "name": "按都道府县的存款与贷款",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD13",
+      "name": "金融机构主要数据",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "MD14",
+      "name": "按到期日的定期存款",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "LA01",
+      "name": "按部门的贷款与贴现票据",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "LA02",
+      "name": "日本央行贷款与贴现",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "LA03",
+      "name": "其他贷款余额",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "LA04",
+      "name": "银行承诺授信额度",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "LA05",
+      "name": "银行贷款行为调查",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "BS01",
+      "name": "日本央行资产负债表",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "BS02",
+      "name": "金融机构资产负债表",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "FF",
+      "name": "资金流量",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 34708
+    },
+    {
+      "db": "OB01",
+      "name": "央行与政府交易",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "OB02",
+      "name": "央行接受的抵押品",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "CO",
+      "name": "短观企业调查 Tankan",
+      "series_catalog_status": "series_catalog_not_bundled",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PR01",
+      "name": "企业物价指数 CGPI",
+      "series_catalog_status": "complete_returned_metadata_for_this_database",
+      "metadata_rows": 32086
+    },
+    {
+      "db": "PR02",
+      "name": "服务生产者价格指数 SPPI",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PR03",
+      "name": "制造业投入产出价格指数",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PR04",
+      "name": "最终需求中间需求价格指数",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PF01",
+      "name": "国库收支",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "PF02",
+      "name": "政府债务",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "BP01",
+      "name": "国际收支",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "BIS",
+      "name": "日本国际银行统计",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "DER",
+      "name": "日本衍生品市场统计",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    },
+    {
+      "db": "OT",
+      "name": "其他统计",
+      "series_catalog_status": "database_declared; series_not_enumerated",
+      "metadata_rows": 0
+    }
+  ],
+  "snapshots": [
+    {
+      "db": "IR01",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=IR01",
+      "checked": "2026-10-06",
+      "sha256": "f51250ec8389a672ce913e3401d4fe75e654a76818a88120486eb511b1d62a3c",
+      "metadata_rows": 3,
+      "series_rows": 2
+    },
+    {
+      "db": "FM01",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=FM01",
+      "checked": "2026-10-06",
+      "sha256": "f3147587a5b41b7e86f019c21bb86885672b90b10fc09ad28686cd308d7d86d6",
+      "metadata_rows": 6,
+      "series_rows": 4
+    },
+    {
+      "db": "FM08",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=FM08",
+      "checked": "2026-10-06",
+      "sha256": "fb2d3b1f2f4a0f50a4997787c52d6a018492bb2b58f089938a94056d7a32185d",
+      "metadata_rows": 62,
+      "series_rows": 58
+    },
+    {
+      "db": "FM09",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=FM09",
+      "checked": "2026-10-06",
+      "sha256": "23a5a1ccec1e4ddc5c3978d19c99bcdd4c19892d03867bd51b7edafe31a982ab",
+      "metadata_rows": 5,
+      "series_rows": 4
+    },
+    {
+      "db": "MD01",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=MD01",
+      "checked": "2026-10-06",
+      "sha256": "450c9266ab27be6e170602c2b4f9ee4e0626951bf1765db74ed8692e78624cbc",
+      "metadata_rows": 15,
+      "series_rows": 14
+    },
+    {
+      "db": "FF",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=FF",
+      "checked": "2026-10-06",
+      "sha256": "f9bca8335bb830cf2e43e1cc4e8985c5538b9d77842724636283412b3041bbd6",
+      "metadata_rows": 34708,
+      "series_rows": 33887
+    },
+    {
+      "db": "PR01",
+      "url": "https://www.stat-search.boj.or.jp/api/v1/getMetadata?format=csv&lang=en&db=PR01",
+      "checked": "2026-10-06",
+      "sha256": "436d4837d21e0ff28b0959158cd57ecb29dcfbee36ad4d441346ca5213934c5c",
+      "metadata_rows": 32086,
+      "series_rows": 31254
+    }
+  ],
+  "partial": true,
+  "observations": 0,
+  "coverage_note": "metadata start/end dates are declared, not observation availability verified; blank SERIES_CODE rows are hierarchy nodes"
+}

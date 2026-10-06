@@ -1,0 +1,1421 @@
+{
+  "id": "bbk",
+  "source_id": "bbk-real-rate",
+  "url": "https://api.statistiken.bundesbank.de/rest/metadata/dataflow/BBK?references=none",
+  "checked": "2026-10-06",
+  "record_count": 94,
+  "scope": "All returned dataflow records, including versions/subsets; not distinct indicator series",
+  "original_response_sha256": "8b5fe9db3597b93fb6629a517f0e6630b58401149fb19f29bf467801ab2cbc2d",
+  "records": [
+    {
+      "flow_id": "BBAF3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Financial Accounts - internet  time series",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_AQFA2010",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBAF3,1.0"
+    },
+    {
+      "flow_id": "BBAF4",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Time series ESA 95",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BBAFK",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBAF4,1.0"
+    },
+    {
+      "flow_id": "BBAI3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Deutsche Bundesbank, Statistics on Insurance Corporations and Pension Funds",
+      "search_aliases": "养老金",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ACIP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBAI3,1.0"
+    },
+    {
+      "flow_id": "BBAPV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Deutsche Bundesbank, Statistics on Pension funds",
+      "search_aliases": "养老金",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ACS2",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBAPV,1.0"
+    },
+    {
+      "flow_id": "BBASV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Deutsche Bundesbank, Statistics on Insurance Corporations (Solvency I + II)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ACS2",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBASV,1.0"
+    },
+    {
+      "flow_id": "BBBEK1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "AUSTA - Banks in Germany",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSEBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBEK1,1.0"
+    },
+    {
+      "flow_id": "BBBEK2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "AUSTA - Foreign branches",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSEBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBEK2,1.0"
+    },
+    {
+      "flow_id": "BBBEK3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "AUSTA - Foreign subsidiaries",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSEBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBEK3,1.0"
+    },
+    {
+      "flow_id": "BBBEK4",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "AUSTA - Consolidated Groups",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSEBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBEK4,1.0"
+    },
+    {
+      "flow_id": "BBBEK5",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "OTC Derivatives Statistics",
+      "search_aliases": "衍生品",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSEBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBEK5,1.0"
+    },
+    {
+      "flow_id": "BBBK1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Banks in Germany (MFI and non-MFI credit institutions)",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK1,1.0"
+    },
+    {
+      "flow_id": "BBBK10",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "German contribution, ECB-Aggregates  (MFI and non-MFI credit institutions), Bundesbank BSI-statistics",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK10",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK10,1.0"
+    },
+    {
+      "flow_id": "BBBK11",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Weekly financial statement",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK11",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK11,1.0"
+    },
+    {
+      "flow_id": "BBBK12",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Financial Soundnes Indicators, SDDS (without German contribution)",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK12",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK12,1.0"
+    },
+    {
+      "flow_id": "BBBK13",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "ECB-Aggregates non-MFI credit institutions",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK13",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK13,1.0"
+    },
+    {
+      "flow_id": "BBBK2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Building and loan associations (MFI)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK2,1.0"
+    },
+    {
+      "flow_id": "BBBK20",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI, ECB - historical time series",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK20",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK20,1.0"
+    },
+    {
+      "flow_id": "BBBK3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Borrowers statistics (MFI)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK3,1.0"
+    },
+    {
+      "flow_id": "BBBK4",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Multi-office banks (MFI and non-MFI credit institutions)",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK4",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK4,1.0"
+    },
+    {
+      "flow_id": "BBBK5",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Foreign branchess (MFI and non-MFI credit institutions)",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK5",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK5,1.0"
+    },
+    {
+      "flow_id": "BBBK6",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Foreign subsidiaries (MFI)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK6",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK6,1.0"
+    },
+    {
+      "flow_id": "BBBK7",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BSI - Regional statistics (MFI)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK7",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK7,1.0"
+    },
+    {
+      "flow_id": "BBBK8",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "FVC - Financial vehicle corporation",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK8",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK8,1.0"
+    },
+    {
+      "flow_id": "BBBK9",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Structural figures, size categories, publications",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSBBK9",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBK9,1.0"
+    },
+    {
+      "flow_id": "BBBP1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Profit and loss",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPL",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBP1,1.0"
+    },
+    {
+      "flow_id": "BBBP2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Gewinn- und Verlustrechnung",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPL",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBP2,1.0"
+    },
+    {
+      "flow_id": "BBBPS",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Profit and loss (IFRS-group)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPL_S",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBPS,1.0"
+    },
+    {
+      "flow_id": "BBBS2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Deutsche Bundesbank, Bankenstatistik, EWU, Geldmengenaggregate (Veröffentlichungsebene)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSI1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBS2,1.0"
+    },
+    {
+      "flow_id": "BBBU2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Bank Lending Survey",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BLS_G",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBU2,1.0"
+    },
+    {
+      "flow_id": "BBBZ1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Payments Statistics",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBBZ1,1.0"
+    },
+    {
+      "flow_id": "BBDA1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "German external trade",
+      "search_aliases": "贸易",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOET",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDA1,1.0"
+    },
+    {
+      "flow_id": "BBDB2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "consolidated financial statement statistics",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOBS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDB2,1.0"
+    },
+    {
+      "flow_id": "BBDC1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Calendar regressor",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOCR",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDC1,1.0"
+    },
+    {
+      "flow_id": "BBDE1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Short-term economic indicators (classified by economic sector)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOES",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDE1,1.0"
+    },
+    {
+      "flow_id": "BBDG1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Commodities",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOGO",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDG1,1.0"
+    },
+    {
+      "flow_id": "BBDL1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Labour market - Germany",
+      "search_aliases": "劳动 就业",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOLM",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDL1,1.0"
+    },
+    {
+      "flow_id": "BBDP1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Price statistics (classified by goods and services)",
+      "search_aliases": "价格",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOPR",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDP1,1.0"
+    },
+    {
+      "flow_id": "BBDR1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Real Estate Prices",
+      "search_aliases": "价格",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DORE",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDR1,1.0"
+    },
+    {
+      "flow_id": "BBDY1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "System of indicators of the German residential property market",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOSR",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDY1,1.0"
+    },
+    {
+      "flow_id": "BBDZ1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "System of indicators for the German commercial property market",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_DOSC",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBDZ1,1.0"
+    },
+    {
+      "flow_id": "BBEE1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Effective Exchange Rates",
+      "search_aliases": "汇率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EREW",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBEE1,1.0"
+    },
+    {
+      "flow_id": "BBEE5",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Indices of exchange rate effects in the international investment position",
+      "search_aliases": "汇率 投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EREI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBEE5,1.0"
+    },
+    {
+      "flow_id": "BBEX3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "ECB euro reference exchange rates, exchange rates in particular countries, special drawing rights, p",
+      "search_aliases": "汇率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ERX",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBEX3,1.0"
+    },
+    {
+      "flow_id": "BBFBOPV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Balance of payments (publication level)",
+      "search_aliases": "支付 国际收支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ES_BOP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFBOPV,1.0"
+    },
+    {
+      "flow_id": "BBFEPOEV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "External positions of enterprises (Publication Level)",
+      "search_aliases": "企业",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ESNB",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFEPOEV,1.0"
+    },
+    {
+      "flow_id": "BBFFDIPV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Direct investment positions (publication level)",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ES_FDI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFFDIPV,1.0"
+    },
+    {
+      "flow_id": "BBFFDITV",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Direct investment transactions (publication level)",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ES_FDI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFFDITV,1.0"
+    },
+    {
+      "flow_id": "BBFI1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "International Investment Position (Veröffentlichungsebene)",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ESBOP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFI1,1.0"
+    },
+    {
+      "flow_id": "BBFI3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "International Investment Position ( currency: Gold fine troy ounces)",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_ESBOP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBFI3,1.0"
+    },
+    {
+      "flow_id": "BBGFS1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Government finance statistics",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_GFS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBGFS1,1.0"
+    },
+    {
+      "flow_id": "BBIB1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Bundesbank's interest rate statistics",
+      "search_aliases": "利率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_IRBB",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBIB1,1.0"
+    },
+    {
+      "flow_id": "BBIG1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Money market",
+      "search_aliases": "货币",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_IRMM",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBIG1,1.0"
+    },
+    {
+      "flow_id": "BBIM1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "MFI interest rate statistics",
+      "search_aliases": "利率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_IRM",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBIM1,1.0"
+    },
+    {
+      "flow_id": "BBIN1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Central bank rates",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_IRCBR",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBIN1,1.0"
+    },
+    {
+      "flow_id": "BBK10",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "BBK01 time series general",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBK10,1.0"
+    },
+    {
+      "flow_id": "BBKRT",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Realtime Data, Deutsche Bundesbank",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_RTD1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBKRT,1.0"
+    },
+    {
+      "flow_id": "BBMF1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Financial market data",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAFA",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMF1,1.0"
+    },
+    {
+      "flow_id": "BBMFK1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Financial market data, short keys",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAFABBK1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMFK1,1.0"
+    },
+    {
+      "flow_id": "BBMMB",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Euro Short-Term Rate",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAMM_EST1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMMB,1.0"
+    },
+    {
+      "flow_id": "BBMME",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Money Market Statistical Reporting_ECB-Aggregats",
+      "search_aliases": "货币",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAMM_MMSR1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMME,1.0"
+    },
+    {
+      "flow_id": "BBMMS",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "MMSR-Aggregats - Secured Market Segment",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAMMS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMMS,1.0"
+    },
+    {
+      "flow_id": "BBMMU",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "MMSR-Aggregats - Unsecured Market Segment",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_MAMMU",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBMMU,1.0"
+    },
+    {
+      "flow_id": "BBNZ1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "National Accounts - ESA 2010 (revision 2024)",
+      "search_aliases": "国民账户 GDP",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_NAAC2011",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBNZ1,1.0"
+    },
+    {
+      "flow_id": "BBQFS",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Financial Stability",
+      "search_aliases": "金融",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_QFS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBQFS,1.0"
+    },
+    {
+      "flow_id": "BBSAP",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Securities holdings",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEHA",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSAP,1.0"
+    },
+    {
+      "flow_id": "BBSDI",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Discount interest rates pursuant to section 253 (2) of the German Commercial Code",
+      "search_aliases": "利率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEDI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSDI,1.0"
+    },
+    {
+      "flow_id": "BBSDP",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Securities holdings - Number of customer deposit accounts",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEHD",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSDP,1.0"
+    },
+    {
+      "flow_id": "BBSEI",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Expectation of inflation rate and expected real interest rates",
+      "search_aliases": "利率",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEEI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSEI,1.0"
+    },
+    {
+      "flow_id": "BBSF2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Investment funds",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEFU2",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSF2,1.0"
+    },
+    {
+      "flow_id": "BBSF3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Performance Indices Investment Funds BBk",
+      "search_aliases": "投资 资本开支",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEFU3",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSF3,1.0"
+    },
+    {
+      "flow_id": "BBSHI",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Securities Issues Statistics (Shares)",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SESS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSHI,1.0"
+    },
+    {
+      "flow_id": "BBSIS",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Yields, term structure and securities issues statistics",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SEIS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSIS,1.0"
+    },
+    {
+      "flow_id": "BBSSP",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Sales and Purchases",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SESP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSSP,1.0"
+    },
+    {
+      "flow_id": "BBSSY",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Yields by ISIN",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_SESY",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBSSY,1.0"
+    },
+    {
+      "flow_id": "BBTHB",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Bargeld Zeitreihen für Grafiker",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_TH3",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBTHB,1.0"
+    },
+    {
+      "flow_id": "BBUMF",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Expectations database",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_VOEXP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBUMF,1.0"
+    },
+    {
+      "flow_id": "BBWCAF1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Statistics of negotiated wages - Aggregates and forecasts",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_WACAAF",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBWCAF1,1.0"
+    },
+    {
+      "flow_id": "BBXE1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Leading indicators of foreign countries",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXEI",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXE1,1.0"
+    },
+    {
+      "flow_id": "BBXF1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Government Finance of foreign countries",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXGF",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXF1,1.0"
+    },
+    {
+      "flow_id": "BBXL3",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Labour Market and Population of foreign countries",
+      "search_aliases": "劳动 就业 人口",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXLP",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXL3,1.0"
+    },
+    {
+      "flow_id": "BBXN1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "National Accounts of foreign countries",
+      "search_aliases": "国民账户 GDP",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXNA",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXN1,1.0"
+    },
+    {
+      "flow_id": "BBXP1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Consumer Prices of foreign countries",
+      "search_aliases": "消费价格 通胀 价格",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXPR",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXP1,1.0"
+    },
+    {
+      "flow_id": "BBXP2",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Consumer Prices of foreign countries (incl. ECOICOP2)",
+      "search_aliases": "消费价格 通胀 价格",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXPR2",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXP2,1.0"
+    },
+    {
+      "flow_id": "BBXS1",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Business and consumer surveys of foreign countries",
+      "search_aliases": "企业 商业",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_EXBS",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBXS1,1.0"
+    },
+    {
+      "flow_id": "BBZVS01",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "payment transactions",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY1",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS01,1.0"
+    },
+    {
+      "flow_id": "BBZVS02",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "credit transfers",
+      "search_aliases": "信贷",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY2",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS02,1.0"
+    },
+    {
+      "flow_id": "BBZVS03",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "direct debits",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY3",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS03,1.0"
+    },
+    {
+      "flow_id": "BBZVS04",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "e-money payment transactions",
+      "search_aliases": "支付 货币",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY4",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS04,1.0"
+    },
+    {
+      "flow_id": "BBZVS05",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "card payments",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY5",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS05,1.0"
+    },
+    {
+      "flow_id": "BBZVS06",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "payment initiation services",
+      "search_aliases": "支付",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY6",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS06,1.0"
+    },
+    {
+      "flow_id": "BBZVS08",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "ATM, OTC and POS terminal transactions",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY8",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS08,1.0"
+    },
+    {
+      "flow_id": "BBZVS11",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Number of cards issued",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY11",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS11,1.0"
+    },
+    {
+      "flow_id": "BBZVS12",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "Number of terminals",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY12",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVS12,1.0"
+    },
+    {
+      "flow_id": "BBZVSSSI",
+      "agency": "BBK",
+      "version": "1.0",
+      "name": "general Structural Indicators",
+      "search_aliases": "",
+      "structure_ref": {
+        "agencyID": "BBK",
+        "id": "BBK_BSPAY_SSIA",
+        "version": "1.0",
+        "class": "DataStructure",
+        "package": "datastructure"
+      },
+      "query_flow_ref": "BBK,BBZVSSSI,1.0"
+    }
+  ]
+}

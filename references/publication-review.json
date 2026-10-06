@@ -1,0 +1,160 @@
+{
+  "checked": "2026-10-06",
+  "edition": "public-portable",
+  "exported_files": 34,
+  "sources": 84,
+  "content_entries": 3927,
+  "checks": [
+    {
+      "criterion": "all exported files privacy/credential scan",
+      "verdict": "PASS",
+      "evidence": "Every UTF-8 file scanned; no private identity, host path, IP, email or credential matches."
+    },
+    {
+      "criterion": "export entry-kind allowlist",
+      "verdict": "PASS",
+      "evidence": "Local schemas, CSV headers, account tables, pull recipes and archive manifests excluded."
+    },
+    {
+      "criterion": "public schemas contain no deployment fields",
+      "verdict": "PASS",
+      "evidence": "No owner paths, code/runtime contracts, database/coverage fields or session evidence exported."
+    },
+    {
+      "criterion": "unique content IDs",
+      "verdict": "PASS",
+      "evidence": "Census stable/BETA paths preserve distinct records."
+    },
+    {
+      "criterion": "public metadata exact membership",
+      "verdict": "PASS",
+      "evidence": "Bidirectional ID sets of allowed metadata kinds; no local-data kind accepted."
+    },
+    {
+      "criterion": "flow/dataset identifiers preserved",
+      "verdict": "PASS",
+      "evidence": "Official identifiers, titles, agencies, versions, structure references and paths compared; optional descriptive prose/contact details deliberately excluded."
+    },
+    {
+      "criterion": "official field schemas preserved",
+      "verdict": "PASS",
+      "evidence": "CFTC columns/types unchanged; sample/extreme observation caches omitted."
+    },
+    {
+      "criterion": "tool interface signatures preserved",
+      "verdict": "PASS",
+      "evidence": "54 signatures retained; private source-file evidence removed and docstrings reduced to one-line interface summaries."
+    },
+    {
+      "criterion": "metadata TSV preserved ecb-flows",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved ecb-codes",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved bis-flows",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved oecd-flows",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved bbk-flows",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved cftc-datasets",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved census-datasets",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved sec-companies",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved boj-databases",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved boj-series",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "metadata TSV preserved datayes-indicators",
+      "verdict": "PASS",
+      "evidence": "All row fields compared after explicit path/status exclusions; no observation tables read."
+    },
+    {
+      "criterion": "portable query check",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=errors=0"
+    },
+    {
+      "criterion": "portable query data 房价 --source bis-sdmx",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=flow:bis:BIS:WS_SPP:"
+    },
+    {
+      "criterion": "portable query tags AAPL --catalog sec-companies",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=Apple"
+    },
+    {
+      "criterion": "portable query tags FM08 Dollar --catalog boj-series --limit 2",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=FXERD"
+    },
+    {
+      "criterion": "portable query tags EXR CURRENCY USD --catalog ecb-codes --limit 1",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=USD"
+    },
+    {
+      "criterion": "portable query data-show tool:estat:get_statistic_meta",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=signature"
+    },
+    {
+      "criterion": "portable query show census-capex",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=discovery"
+    },
+    {
+      "criterion": "portable query data --source yfin-mcp --kind mcp_tool",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=DATA matched=9"
+    },
+    {
+      "criterion": "portable query data --source china-stock-mcp --kind mcp_tool",
+      "verdict": "PASS",
+      "evidence": "Run from another working directory; exit=0; expected=DATA matched=30"
+    },
+    {
+      "criterion": "small standard-library-only query tool",
+      "verdict": "PASS",
+      "evidence": "Lookup imports only argparse/csv/hashlib/json/sys/pathlib; no fetch, shell dispatch or database access."
+    }
+  ],
+  "failed": 0,
+  "privacy_matches": 0,
+  "observation_downloads": 0,
+  "account_calls": 0,
+  "history_policy": "fresh repository; no private Git history imported",
+  "style_review": "manual review of new Chinese README/SKILL/retrieval/catalog; remaining style hits 0"
+}
